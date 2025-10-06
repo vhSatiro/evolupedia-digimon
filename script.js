@@ -5,7 +5,7 @@ async function loadData() {
   digimons = await response.json();
 }
 
-// Função de distância simples (quanto menor, mais parecido)
+// Similaridade simples
 function similarity(a, b) {
   a = a.toLowerCase();
   b = b.toLowerCase();
@@ -43,6 +43,22 @@ function selectSuggestion(value) {
   document.getElementById("searchInput").value = value;
   document.getElementById("suggestions").style.display = "none";
   searchDigimon();
+}
+
+function handleKey(event) {
+  const suggestionBox = document.getElementById("suggestions");
+
+  if (event.key === "Enter") {
+    event.preventDefault();
+    if (suggestionBox.style.display !== "none" && suggestionBox.value) {
+      selectSuggestion(suggestionBox.value);
+    } else {
+      searchDigimon();
+    }
+  }
+  if (event.key === "ArrowDown" && suggestionBox.style.display !== "none") {
+    suggestionBox.focus();
+  }
 }
 
 function searchDigimon() {
