@@ -104,6 +104,10 @@ body {
     color: var(--digi-blue);
     font-weight: 600;
 }
+/* NOVO: Estilo para o título da seção de pré-evoluções */
+.pre-evolutions-title {
+    margin-top: 1.5rem; /* Adiciona um espaço acima do título */
+}
 
 .digimon-image {
     max-width: 90px;
@@ -128,7 +132,7 @@ body {
 .evolution-card {
     border: 1px solid var(--digi-border-light);
     background-color: var(--digi-card-bg);
-    cursor: pointer; /* ADICIONADO: Cursor de clique */
+    cursor: pointer;
 }
 .evolution-card:hover {
     transform: translateY(-5px);
@@ -150,7 +154,6 @@ body {
     font-weight: 600;
     font-size: 0.85rem;
 }
-/* NOVO: Estilo para o atributo da evolução */
 .evolution-attribute {
     font-size: 0.75rem;
     font-weight: 600;
@@ -158,13 +161,12 @@ body {
     margin-top: 4px;
     margin-bottom: 0;
 }
-/* NOVO: Cores dinâmicas para os atributos */
 .attr-virus { color: var(--attr-virus); }
 .attr-vaccine { color: var(--attr-vaccine); }
 .attr-data { color: var(--attr-data); }
 .attr-free { color: var(--attr-free); }
 .attr-none { color: var(--attr-none); }
-.attr-unknown { color: var(--attr-free); } /* Trata 'Unknown' como 'Free' */
+.attr-unknown { color: var(--attr-free); }
 
 /* --- Estilização para Awesomplete (Tema Claro) --- */
 div.awesomplete > ul {
