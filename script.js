@@ -5,12 +5,15 @@ let navigationHistory = [];
 const searchInput = document.getElementById("search");
 const resultadoDiv = document.getElementById("resultado");
 const historyContainer = document.getElementById("history-container");
+const favoritesContainer = document.getElementById("favorites-container");
+const scrollLeftBtn = document.getElementById("scroll-left-btn");
+const scrollRightBtn = document.getElementById("scroll-right-btn");
 let awesomplete;
 
 // --- FUNÇÕES DE LÓGICA ---
 function handleImageError(element, digimonName) {
     element.style.display = 'none';
-    console.warn(`A imagem para o Digimon "${digimonName}" não foi encontrada na API.`);
+    console.warn(`A imagem para o Digimon "${digimonName}" não foi encontrada.`);
 }
 
 // --- LÓGICA DO HISTÓRICO ---
@@ -20,8 +23,7 @@ const addToHistory = (name) => {
     let history = getHistory();
     history = history.filter(item => item.toLowerCase() !== name.toLowerCase());
     history.unshift(name);
-    const slicedHistory = history.slice(0, 10);
-    saveHistory(slicedHistory);
+    saveHistory(history.slice(0, 10));
 };
 const removeFromHistory = (name) => {
     event.stopPropagation();
@@ -51,8 +53,77 @@ const renderHistory = () => {
     });
 };
 
-// --- FIM DA LÓGICA DO HISTÓRICO ---
+// --- LÓGICA DOS FAVORITOS ---
+const getFavorites = () => JSON.parse(localStorage.getItem('digimonFavorites')) || [];
+const saveFavorites = (favorites) => localStorage.setItem('digimonFavorites', JSON.stringify(favorites));
 
+const isFavorite = (name) => {
+    const favorites = getFavorites();
+    return favorites.some(fav => fav.toLowerCase() === name.toLowerCase());
+};
+
+const toggleFavorite = (name) => {
+    let favorites = getFavorites();
+    const digimonIndex = favorites.findIndex(item => item.toLowerCase() === name.toLowerCase());
+
+    if (digimonIndex > -1) {
+        favorites.splice(digimonIndex, 1); // Remove
+    } else {
+        favorites.unshift(name); // Adiciona no início
+    }
+    saveFavorites(favorites);
+
+    const currentStar = resultadoDiv.querySelector('.favorite-star');
+    if (currentStar && currentStar.dataset.name.toLowerCase() === name.toLowerCase()) {
+        currentStar.classList.toggle('favorited', digimonIndex === -1);
+    }
+    renderFavorites();
+};
+
+const removeFromFavorites = (name) => {
+    event.stopPropagation();
+    let favorites = getFavorites();
+    favorites = favorites.filter(item => item.toLowerCase() !== name.toLowerCase());
+    saveFavorites(favorites);
+    renderFavorites();
+};
+
+const updateScrollButtons = () => {
+    setTimeout(() => {
+        const hasOverflow = favoritesContainer.scrollWidth > favoritesContainer.clientWidth;
+        scrollLeftBtn.style.display = hasOverflow ? 'block' : 'none';
+        scrollRightBtn.style.display = hasOverflow ? 'block' : 'none';
+
+        if (!hasOverflow) return;
+
+        scrollLeftBtn.disabled = favoritesContainer.scrollLeft < 1;
+        scrollRightBtn.disabled = favoritesContainer.scrollLeft + favoritesContainer.clientWidth >= favoritesContainer.scrollWidth - 1;
+    }, 100);
+};
+
+const renderFavorites = () => {
+    const favorites = getFavorites();
+    favoritesContainer.innerHTML = '';
+    if (favorites.length === 0) {
+        favoritesContainer.innerHTML = '<p class="text-muted small">Nenhum favorito adicionado.</p>';
+    } else {
+        favorites.forEach(name => {
+            const imageUrl = `https://digimon-api.com/images/digimon/w/${name.replace(/\s/g, '_')}.png`;
+            const card = document.createElement('div');
+            card.className = 'favorite-card';
+            card.onclick = () => performSearch(name);
+            card.innerHTML = `
+                <button class="favorite-delete-btn" onclick="removeFromFavorites('${name.replace(/'/g, "\\'")}')" title="Remover dos Favoritos">×</button>
+                <img src="${imageUrl}" alt="${name}" onerror="handleImageError(this, '${name.replace(/'/g, "\\'")}')">
+                <span>${name}</span>
+            `;
+            favoritesContainer.appendChild(card);
+        });
+    }
+    updateScrollButtons();
+};
+
+// --- FETCH INICIAL E CONFIGURAÇÃO ---
 fetch("digimon_data.json")
   .then(res => res.json())
   .then(data => {
@@ -63,12 +134,20 @@ fetch("digimon_data.json")
         minChars: 1,
         autoFirst: true,
         filter: (text, input) => new RegExp(input.trim(), "i").test(text.toString()),
-        sort: (a, b) => { /* ... (código de sort inalterado) ... */ }
     });
     searchInput.addEventListener("awesomplete-selectcomplete", () => performSearch(searchInput.value));
+    
     renderHistory();
+    renderFavorites();
+
+    // Listeners para os botões de rolagem dos favoritos
+    scrollLeftBtn.addEventListener('click', () => favoritesContainer.scrollBy({ left: -200 }));
+    scrollRightBtn.addEventListener('click', () => favoritesContainer.scrollBy({ left: 200 }));
+    favoritesContainer.addEventListener('scroll', updateScrollButtons);
+    window.addEventListener('resize', updateScrollButtons);
   });
 
+// --- LÓGICA DE BUSCA E NAVEGAÇÃO ---
 function performSearch(name) {
     navigationHistory = [name];
     addToHistory(name);
@@ -96,8 +175,9 @@ function buscarDigimon(name) {
     
     if (encontrado) {
         const imageUrl = `https://digimon-api.com/images/digimon/w/${encontrado.Name.replace(/\s/g, '_')}.png`;
+        const isFav = isFavorite(encontrado.Name);
 
-        // --- LÓGICA DAS EVOLUÇÕES ---
+        // LÓGICA DAS EVOLUÇÕES (sem alteração)
         let evolucoesHTML = "<p class='text-muted'>Nenhuma evolução cadastrada.</p>";
         if (Array.isArray(encontrado.EvolutionsList) && encontrado.EvolutionsList.length > 0) {
             const evolucoesCards = encontrado.EvolutionsList.map(evoName => {
@@ -116,12 +196,11 @@ function buscarDigimon(name) {
             evolucoesHTML = `<div class="evolutions-grid">${evolucoesCards}</div>`;
         }
 
-        // --- NOVA LÓGICA DAS PRÉ-EVOLUÇÕES ---
+        // LÓGICA DAS PRÉ-EVOLUÇÕES (sem alteração)
         let preEvolucoesHTML = "<p class='text-muted'>Nenhuma pré-evolução cadastrada.</p>";
         const preEvolutionsList = ALL_DIGIMON_DATA.filter(digimon => 
             digimon.EvolutionsList && digimon.EvolutionsList.includes(encontrado.Name)
         );
-
         if (preEvolutionsList.length > 0) {
             const preEvolucoesCards = preEvolutionsList.map(preEvoDigimon => {
                 const preEvoName = preEvoDigimon.Name;
@@ -139,11 +218,19 @@ function buscarDigimon(name) {
             preEvolucoesHTML = `<div class="evolutions-grid">${preEvolucoesCards}</div>`;
         }
 
-        // --- TEMPLATE HTML ATUALIZADO ---
+        // --- TEMPLATE HTML ATUALIZADO COM ÍCONE DE FAVORITO ---
         resultadoDiv.innerHTML = `
         <div class="card border-info">
-            <div class="card-header bg-info text-white position-relative">
-            <h2 class="h4 mb-0">${encontrado.Name}</h2>
+            <div class="card-header bg-info text-white d-flex justify-content-between align-items-center">
+                <h2 class="h4 mb-0">${encontrado.Name}</h2>
+                <div class="d-flex align-items-center">
+                    <span 
+                        class="favorite-star ${isFav ? 'favorited' : ''}" 
+                        data-name="${encontrado.Name.replace(/'/g, "\\'")}"
+                        onclick="toggleFavorite('${encontrado.Name.replace(/'/g, "\\'")}')"
+                        title="Adicionar/Remover dos Favoritos"
+                    >★</span>
+                </div>
             </div>
             <div class="card-body">
                 <img src="${imageUrl}" alt="${encontrado.Name}" class="digimon-image" onerror="handleImageError(this, '${encontrado.Name.replace(/'/g, "\\'")}')">
@@ -151,10 +238,8 @@ function buscarDigimon(name) {
                 <p><strong>Estágio:</strong> ${encontrado.Stage || "Desconhecido"}</p>
                 <p class="mb-2"><strong>Atributo:</strong> ${encontrado.Attribute || "Desconhecido"}</p>
                 <div style="clear: both;"></div>
-
                 <h5 class="mt-4">Evoluções</h5>
                 ${evolucoesHTML}
-
                 <h5 class="pre-evolutions-title">Pré-evoluções</h5>
                 ${preEvolucoesHTML}
             </div>
@@ -162,12 +247,12 @@ function buscarDigimon(name) {
         `;
 
         if (navigationHistory.length > 1) {
-            const cardHeader = resultadoDiv.querySelector('.card-header');
+            const headerDiv = resultadoDiv.querySelector('.card-header > div');
             const backButton = document.createElement('button');
-            backButton.className = 'btn btn-sm btn-light position-absolute top-50 end-0 translate-middle-y me-2';
+            backButton.className = 'btn btn-sm btn-light ms-3';
             backButton.innerText = '‹ Voltar';
             backButton.onclick = navigateBack;
-            cardHeader.appendChild(backButton);
+            headerDiv.appendChild(backButton);
         }
         
     } else {
