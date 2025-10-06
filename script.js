@@ -1,4 +1,5 @@
 let digimons = [];
+let awesomplete;
 
 // Carregar JSON
 fetch("digimon_data.json")
@@ -8,7 +9,7 @@ fetch("digimon_data.json")
     let input = document.getElementById("search");
 
     // Inicializar Awesomplete
-    new Awesomplete(input, {
+    awesomplete = new Awesomplete(input, {
       list: digimons,
       minChars: 1,
       autoFirst: true,
@@ -17,10 +18,14 @@ fetch("digimon_data.json")
         return regex.test(text);
       },
       sort: function(a, b) {
-        // Ordena por proximidade
         return a.value.toLowerCase().indexOf(input.value.toLowerCase()) - 
                b.value.toLowerCase().indexOf(input.value.toLowerCase());
       }
+    });
+
+    // Quando selecionar uma sugestão
+    input.addEventListener("awesomplete-selectcomplete", function() {
+      buscarDigimon(); // já busca automaticamente
     });
   });
 
