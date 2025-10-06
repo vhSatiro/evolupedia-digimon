@@ -2,27 +2,20 @@
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Digimon Evolutions</title>
+  <title>Digimon Evoluções</title>
   <link rel="stylesheet" href="styles.css">
+  <!-- Awesomplete -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/awesomplete/1.1.5/awesomplete.min.css" />
 </head>
 <body>
-  <h1>Digimon Evolutions</h1>
-  <div class="search-box">
-    <input 
-      type="text" 
-      id="searchInput" 
-      placeholder="Digite o nome do Digimon" 
-      oninput="updateSuggestions()" 
-      onkeydown="handleKey(event)"
-    >
-    <div class="suggestions-container">
-      <select id="suggestions" size="5" style="display:none;" onchange="selectSuggestion(this.value)"></select>
-    </div>
-    <button onclick="searchDigimon()">Buscar</button>
+  <div class="container">
+    <h1>Busca de Digimons</h1>
+    <input id="search" class="awesomplete" placeholder="Digite o nome do Digimon">
+    <button onclick="buscarDigimon()">Buscar</button>
+    <div id="resultado"></div>
   </div>
-  <div id="result" class="result" style="display: none;"></div>
 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/awesomplete/1.1.5/awesomplete.min.js"></script>
   <script src="script.js"></script>
 </body>
 </html>
