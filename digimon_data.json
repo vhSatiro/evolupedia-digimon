@@ -1,0 +1,4555 @@
+[
+  {
+    "Number": 1,
+    "Name": "Kuramon",
+    "Stage": "I",
+    "Attribute": "None",
+    "EvolutionsList": [
+      "Pagumon",
+      "Tsumemon"
+    ]
+  },
+  {
+    "Number": 2,
+    "Name": "Choromon",
+    "Stage": "I",
+    "Attribute": "None",
+    "EvolutionsList": [
+      "Caprimon"
+    ]
+  },
+  {
+    "Number": 3,
+    "Name": "Dodomon",
+    "Stage": "I",
+    "Attribute": "None",
+    "EvolutionsList": [
+      "Wanyamon",
+      "Dorimon"
+    ]
+  },
+  {
+    "Number": 4,
+    "Name": "Bubbmon",
+    "Stage": "I",
+    "Attribute": "None",
+    "EvolutionsList": [
+      "Mochimon",
+      "Pyocomon",
+      "Tanemon"
+    ]
+  },
+  {
+    "Number": 5,
+    "Name": "Punimon",
+    "Stage": "I",
+    "Attribute": "None",
+    "EvolutionsList": [
+      "Tunomon",
+      "Nyaromon"
+    ]
+  },
+  {
+    "Number": 6,
+    "Name": "Botamon",
+    "Stage": "I",
+    "Attribute": "None",
+    "EvolutionsList": [
+      "Koromon"
+    ]
+  },
+  {
+    "Number": 7,
+    "Name": "Poyomon",
+    "Stage": "I",
+    "Attribute": "None",
+    "EvolutionsList": [
+      "Pukamon",
+      "Tokomon"
+    ]
+  },
+  {
+    "Number": 8,
+    "Name": "Caprimon",
+    "Stage": "II",
+    "Attribute": "None",
+    "EvolutionsList": [
+      "Hagurumon",
+      "Kokuwamon",
+      "Toy Agumon",
+      "Solarmon"
+    ]
+  },
+  {
+    "Number": 9,
+    "Name": "Koromon",
+    "Stage": "II",
+    "Attribute": "None",
+    "EvolutionsList": [
+      "Agumon",
+      "Guilmon",
+      "Dracomon",
+      "Kotemon",
+      "Betamon",
+      "Shoutmon"
+    ]
+  },
+  {
+    "Number": 10,
+    "Name": "Tanemon",
+    "Stage": "II",
+    "Attribute": "None",
+    "EvolutionsList": [
+      "Funbeemon",
+      "Lalamon",
+      "Palmon",
+      "Mushmon",
+      "Floramon"
+    ]
+  },
+  {
+    "Number": 11,
+    "Name": "Tunomon",
+    "Stage": "II",
+    "Attribute": "None",
+    "EvolutionsList": [
+      "Goburimon",
+      "V-Mon",
+      "Gabumon",
+      "Ryudamon",
+      "Elecmon",
+      "Zubamon"
+    ]
+  },
+  {
+    "Number": 12,
+    "Name": "Tsumemon",
+    "Stage": "II",
+    "Attribute": "None",
+    "EvolutionsList": [
+      "Dracumon",
+      "Shamamon",
+      "Keramon"
+    ]
+  },
+  {
+    "Number": 13,
+    "Name": "Tokomon",
+    "Stage": "II",
+    "Attribute": "None",
+    "EvolutionsList": [
+      "Patamon",
+      "Coronamon",
+      "Terriermon",
+      "Armadimon",
+      "Lucemon"
+    ]
+  },
+  {
+    "Number": 14,
+    "Name": "Dorimon",
+    "Stage": "II",
+    "Attribute": "None",
+    "EvolutionsList": [
+      "Dorumon",
+      "Monodramon",
+      "Snow Goburimon",
+      "Lopmon"
+    ]
+  },
+  {
+    "Number": 15,
+    "Name": "Nyaromon",
+    "Stage": "II",
+    "Attribute": "None",
+    "EvolutionsList": [
+      "Lunamon",
+      "Kudamon",
+      "Plotmon",
+      "Hackmon"
+    ]
+  },
+  {
+    "Number": 16,
+    "Name": "Pagumon",
+    "Stage": "II",
+    "Attribute": "None",
+    "EvolutionsList": [
+      "Impmon",
+      "Pico Devimon",
+      "Gazimon",
+      "Otamamon"
+    ]
+  },
+  {
+    "Number": 17,
+    "Name": "Pyocomon",
+    "Stage": "II",
+    "Attribute": "None",
+    "EvolutionsList": [
+      "Piyomon",
+      "Penmon",
+      "Falcomon",
+      "Hawkmon",
+      "Hyokomon",
+      "Muchomon"
+    ]
+  },
+  {
+    "Number": 18,
+    "Name": "Pukamon",
+    "Stage": "II",
+    "Attribute": "None",
+    "EvolutionsList": [
+      "Kamemon",
+      "Ganimon",
+      "Gomamon",
+      "Gizamon",
+      "Shakomon"
+    ]
+  },
+  {
+    "Number": 19,
+    "Name": "Mochimon",
+    "Stage": "II",
+    "Attribute": "None",
+    "EvolutionsList": [
+      "Tyumon",
+      "Tentomon",
+      "Wormmon",
+      "Gottsumon"
+    ]
+  },
+  {
+    "Number": 20,
+    "Name": "Wanyamon",
+    "Stage": "II",
+    "Attribute": "None",
+    "EvolutionsList": [
+      "Gaomon",
+      "Bakumon",
+      "Bearmon",
+      "Renamon"
+    ]
+  },
+  {
+    "Number": 21,
+    "Name": "Agumon",
+    "Stage": "III",
+    "Attribute": "Vaccine",
+    "EvolutionsList": [
+      "Raptordramon",
+      "Geo Greymon",
+      "Numemon",
+      "Greymon",
+      "Coredramon (Green)",
+      "Agumon -Yuki No Kizuna-"
+    ]
+  },
+  {
+    "Number": 22,
+    "Name": "Kudamon",
+    "Stage": "III",
+    "Attribute": "Vaccine",
+    "EvolutionsList": [
+      "Airdramon",
+      "Reppamon",
+      "Angemon",
+      "Ginryumon",
+      "Wolfmon",
+      "Sorcerimon"
+    ]
+  },
+  {
+    "Number": 23,
+    "Name": "Gomamon",
+    "Stage": "III",
+    "Attribute": "Vaccine",
+    "EvolutionsList": [
+      "Mojyamon",
+      "Ikkakumon",
+      "Yukidarumon",
+      "Hyougamon",
+      "Ice Devimon"
+    ]
+  },
+  {
+    "Number": 24,
+    "Name": "Coronamon",
+    "Stage": "III",
+    "Attribute": "Vaccine",
+    "EvolutionsList": [
+      "Firamon",
+      "Meramon",
+      "Growmon",
+      "Bao Hackmon",
+      "Birdramon",
+      "Agnimon"
+    ]
+  },
+  {
+    "Number": 25,
+    "Name": "Zubamon",
+    "Stage": "III",
+    "Attribute": "Vaccine",
+    "EvolutionsList": [
+      "Musyamon",
+      "Buraimon",
+      "Tankmon",
+      "Zubaeagermon",
+      "Ankylomon",
+      "Guardromon (Gold)"
+    ]
+  },
+  {
+    "Number": 26,
+    "Name": "Solarmon",
+    "Stage": "III",
+    "Attribute": "Vaccine",
+    "EvolutionsList": [
+      "Starmon",
+      "Gold Numemon",
+      "Meramon",
+      "Guardromon (Gold)"
+    ]
+  },
+  {
+    "Number": 27,
+    "Name": "Terriermon",
+    "Stage": "III",
+    "Attribute": "Vaccine",
+    "EvolutionsList": [
+      "Mojyamon",
+      "Lekismon",
+      "Gawappamon",
+      "Gargomon",
+      "Rapidmon Armor"
+    ]
+  },
+  {
+    "Number": 28,
+    "Name": "Tentomon",
+    "Stage": "III",
+    "Attribute": "Vaccine",
+    "EvolutionsList": [
+      "Kabuterimon",
+      "Sunflowmon",
+      "Kuwagamon",
+      "Waspmon",
+      "Snimon"
+    ]
+  },
+  {
+    "Number": 29,
+    "Name": "Toy Agumon",
+    "Stage": "III",
+    "Attribute": "Vaccine",
+    "EvolutionsList": [
+      "Blimpmon",
+      "Revolmon",
+      "Raremon",
+      "Tankmon",
+      "Gargomon"
+    ]
+  },
+  {
+    "Number": 30,
+    "Name": "Bakumon",
+    "Stage": "III",
+    "Attribute": "Vaccine",
+    "EvolutionsList": [
+      "Meramon",
+      "Garurumon",
+      "Bakemon",
+      "Unimon",
+      "Kyubimon"
+    ]
+  },
+  {
+    "Number": 31,
+    "Name": "Hyokomon",
+    "Stage": "III",
+    "Attribute": "Vaccine",
+    "EvolutionsList": [
+      "Peckmon",
+      "Birdramon",
+      "Dinohumon",
+      "Buraimon"
+    ]
+  },
+  {
+    "Number": 32,
+    "Name": "Piyomon",
+    "Stage": "III",
+    "Attribute": "Vaccine",
+    "EvolutionsList": [
+      "Aquilamon",
+      "Birdramon",
+      "Unimon",
+      "Wizarmon"
+    ]
+  },
+  {
+    "Number": 33,
+    "Name": "Falcomon",
+    "Stage": "III",
+    "Attribute": "Vaccine",
+    "EvolutionsList": [
+      "Peckmon",
+      "Ginryumon",
+      "Kiwimon"
+    ]
+  },
+  {
+    "Number": 34,
+    "Name": "Plotmon",
+    "Stage": "III",
+    "Attribute": "Vaccine",
+    "EvolutionsList": [
+      "Tailmon",
+      "Sangloupmon",
+      "Dobermon",
+      "Ikkakumon",
+      "V-Dramon",
+      "Drimogemon"
+    ]
+  },
+  {
+    "Number": 35,
+    "Name": "Bearmon",
+    "Stage": "III",
+    "Attribute": "Vaccine",
+    "EvolutionsList": [
+      "Gryzmon",
+      "Gaogamon",
+      "Mojyamon",
+      "Leomon"
+    ]
+  },
+  {
+    "Number": 36,
+    "Name": "Penmon",
+    "Stage": "III",
+    "Attribute": "Vaccine",
+    "EvolutionsList": [
+      "Peckmon",
+      "Buraimon",
+      "Kiwimon",
+      "Aquilamon"
+    ]
+  },
+  {
+    "Number": 37,
+    "Name": "Monodramon",
+    "Stage": "III",
+    "Attribute": "Vaccine",
+    "EvolutionsList": [
+      "Strikedramon",
+      "Raptordramon",
+      "Deltamon",
+      "Chrysalimon",
+      "Cyclomon"
+    ]
+  },
+  {
+    "Number": 38,
+    "Name": "Ryudamon",
+    "Stage": "III",
+    "Attribute": "Vaccine",
+    "EvolutionsList": [
+      "Reppamon",
+      "Coelamon",
+      "Ginryumon",
+      "Greymon",
+      "Monochromon"
+    ]
+  },
+  {
+    "Number": 39,
+    "Name": "Lucemon",
+    "Stage": "III",
+    "Attribute": "Vaccine",
+    "EvolutionsList": [
+      "Lucemon: Falldown Mode"
+    ]
+  },
+  {
+    "Number": 40,
+    "Name": "Elecmon",
+    "Stage": "III",
+    "Attribute": "Data",
+    "EvolutionsList": [
+      "Aegiomon",
+      "Seadramon",
+      "Unimon",
+      "Kuwagamon",
+      "Gekomon"
+    ]
+  },
+  {
+    "Number": 41,
+    "Name": "Gaomon",
+    "Stage": "III",
+    "Attribute": "Data",
+    "EvolutionsList": [
+      "Strikedramon",
+      "Gaogamon",
+      "Leomon",
+      "Nanimon",
+      "Turuiemon"
+    ]
+  },
+  {
+    "Number": 42,
+    "Name": "Ganimon",
+    "Stage": "III",
+    "Attribute": "Data",
+    "EvolutionsList": [
+      "Gawappamon",
+      "Octmon",
+      "Shellmon",
+      "Raremon",
+      "Snimon",
+      "Coelamon"
+    ]
+  },
+  {
+    "Number": 43,
+    "Name": "Gabumon",
+    "Stage": "III",
+    "Attribute": "Data",
+    "EvolutionsList": [
+      "Garurumon",
+      "Ikkakumon",
+      "Drimogemon",
+      "Kyubimon",
+      "Geremon",
+      "Gabumon -Yujo No Kizuna-"
+    ]
+  },
+  {
+    "Number": 44,
+    "Name": "Kamemon",
+    "Stage": "III",
+    "Attribute": "Data",
+    "EvolutionsList": [
+      "Gawappamon",
+      "Octmon",
+      "Shellmon",
+      "Karatuki Numemon",
+      "Dinohumon",
+      "Sorcerimon"
+    ]
+  },
+  {
+    "Number": 45,
+    "Name": "Kokuwamon",
+    "Stage": "III",
+    "Attribute": "Data",
+    "EvolutionsList": [
+      "Centalmon",
+      "Kuwagamon",
+      "Clockmon",
+      "Waspmon",
+      "Mechanorimon"
+    ]
+  },
+  {
+    "Number": 46,
+    "Name": "Gottsumon",
+    "Stage": "III",
+    "Attribute": "Data",
+    "EvolutionsList": [
+      "Starmon",
+      "Guardromon",
+      "Golemon",
+      "Monochromon",
+      "Icemon",
+      "Tuchidarumon"
+    ]
+  },
+  {
+    "Number": 47,
+    "Name": "Kotemon",
+    "Stage": "III",
+    "Attribute": "Data",
+    "EvolutionsList": [
+      "Turuiemon",
+      "Musyamon",
+      "Revolmon",
+      "Dinohumon",
+      "Coredramon (Blue)"
+    ]
+  },
+  {
+    "Number": 48,
+    "Name": "Shoutmon",
+    "Stage": "III",
+    "Attribute": "Data",
+    "EvolutionsList": [
+      "Omega Shoutmon",
+      "Zubaeagermon",
+      "Gargomon",
+      "Guardromon (Gold)"
+    ]
+  },
+  {
+    "Number": 49,
+    "Name": "Dracomon",
+    "Stage": "III",
+    "Attribute": "Data",
+    "EvolutionsList": [
+      "Coredramon (Green)",
+      "Coredramon (Blue)",
+      "Deltamon",
+      "V-Dramon",
+      "Seadramon",
+      "Tyranomon"
+    ]
+  },
+  {
+    "Number": 50,
+    "Name": "Dorumon",
+    "Stage": "III",
+    "Attribute": "Data",
+    "EvolutionsList": [
+      "Raptordramon",
+      "Airdramon",
+      "Sangloupmon",
+      "Xv-Mon",
+      "Drimogemon",
+      "Dorugamon"
+    ]
+  },
+  {
+    "Number": 51,
+    "Name": "Patamon",
+    "Stage": "III",
+    "Attribute": "Data",
+    "EvolutionsList": [
+      "Angemon",
+      "Pegasmon",
+      "Unimon",
+      "Centalmon"
+    ]
+  },
+  {
+    "Number": 52,
+    "Name": "Hackmon",
+    "Stage": "III",
+    "Attribute": "Data",
+    "EvolutionsList": [
+      "Tailmon",
+      "Geo Greymon",
+      "Growmon",
+      "Bao Hackmon",
+      "Greymon"
+    ]
+  },
+  {
+    "Number": 53,
+    "Name": "Palmon",
+    "Stage": "III",
+    "Attribute": "Data",
+    "EvolutionsList": [
+      "Mojyamon",
+      "Vegimon",
+      "Togemon",
+      "Woodmon",
+      "Chrysalimon",
+      "Platinum Scumon"
+    ]
+  },
+  {
+    "Number": 54,
+    "Name": "Floramon",
+    "Stage": "III",
+    "Attribute": "Data",
+    "EvolutionsList": [
+      "Vegimon",
+      "Togemon",
+      "Woodmon",
+      "Sunflowmon",
+      "Kiwimon"
+    ]
+  },
+  {
+    "Number": 55,
+    "Name": "Muchomon",
+    "Stage": "III",
+    "Attribute": "Data",
+    "EvolutionsList": [
+      "Airdramon",
+      "Peckmon",
+      "Birdramon",
+      "Fugamon"
+    ]
+  },
+  {
+    "Number": 56,
+    "Name": "Lalamon",
+    "Stage": "III",
+    "Attribute": "Data",
+    "EvolutionsList": [
+      "Sunflowmon",
+      "Togemon",
+      "Revolmon",
+      "Tuchidarumon",
+      "Turuiemon"
+    ]
+  },
+  {
+    "Number": 57,
+    "Name": "Lunamon",
+    "Stage": "III",
+    "Attribute": "Data",
+    "EvolutionsList": [
+      "Lekismon",
+      "Garurumon",
+      "Yukidarumon",
+      "Hyougamon",
+      "Sorcerimon",
+      "Icemon"
+    ]
+  },
+  {
+    "Number": 58,
+    "Name": "Renamon",
+    "Stage": "III",
+    "Attribute": "Data",
+    "EvolutionsList": [
+      "Lekismon",
+      "Sunflowmon",
+      "Reppamon",
+      "Kyubimon"
+    ]
+  },
+  {
+    "Number": 59,
+    "Name": "Lopmon",
+    "Stage": "III",
+    "Attribute": "Data",
+    "EvolutionsList": [
+      "Gryzmon",
+      "Minotaurmon",
+      "Leomon",
+      "Turuiemon",
+      "Wendimon",
+      "Tuchidarumon"
+    ]
+  },
+  {
+    "Number": 60,
+    "Name": "Impmon",
+    "Stage": "III",
+    "Attribute": "Virus",
+    "EvolutionsList": [
+      "Bakemon",
+      "Wizarmon",
+      "Clockmon",
+      "Sangloupmon",
+      "Devimon",
+      "Witchmon"
+    ]
+  },
+  {
+    "Number": 61,
+    "Name": "Otamamon",
+    "Stage": "III",
+    "Attribute": "Virus",
+    "EvolutionsList": [
+      "Seadramon",
+      "Numemon",
+      "Gekomon",
+      "Karatuki Numemon",
+      "Platinum Scumon"
+    ]
+  },
+  {
+    "Number": 62,
+    "Name": "Gazimon",
+    "Stage": "III",
+    "Attribute": "Virus",
+    "EvolutionsList": [
+      "Sangloupmon",
+      "Black Tailmon",
+      "Gaogamon",
+      "Bao Hackmon",
+      "Dobermon",
+      "Dorugamon"
+    ]
+  },
+  {
+    "Number": 63,
+    "Name": "Gizamon",
+    "Stage": "III",
+    "Attribute": "Virus",
+    "EvolutionsList": [
+      "Cyclomon",
+      "Flymon",
+      "Zubaeagermon",
+      "Ankylomon",
+      "Geremon",
+      "Ranamon"
+    ]
+  },
+  {
+    "Number": 64,
+    "Name": "Guilmon",
+    "Stage": "III",
+    "Attribute": "Virus",
+    "EvolutionsList": [
+      "Geo Greymon",
+      "Growmon",
+      "Xv-Mon",
+      "Tyranomon"
+    ]
+  },
+  {
+    "Number": 65,
+    "Name": "Goburimon",
+    "Stage": "III",
+    "Attribute": "Virus",
+    "EvolutionsList": [
+      "Golemon",
+      "Wendimon",
+      "Deltamon",
+      "Tuskmon",
+      "Orgemon"
+    ]
+  },
+  {
+    "Number": 66,
+    "Name": "Shamamon",
+    "Stage": "III",
+    "Attribute": "Virus",
+    "EvolutionsList": [
+      "Minotaurmon",
+      "Musyamon",
+      "Fugamon",
+      "Witchmon"
+    ]
+  },
+  {
+    "Number": 67,
+    "Name": "Shakomon",
+    "Stage": "III",
+    "Attribute": "Virus",
+    "EvolutionsList": [
+      "Coelamon",
+      "Shellmon",
+      "Karatuki Numemon",
+      "Octmon",
+      "Raremon"
+    ]
+  },
+  {
+    "Number": 68,
+    "Name": "Snow Goburimon",
+    "Stage": "III",
+    "Attribute": "Virus",
+    "EvolutionsList": [
+      "Tailmon",
+      "Monochromon",
+      "Yukidarumon",
+      "Hyougamon",
+      "Ice Devimon",
+      "Icemon"
+    ]
+  },
+  {
+    "Number": 69,
+    "Name": "Tyumon",
+    "Stage": "III",
+    "Attribute": "Virus",
+    "EvolutionsList": [
+      "Black Tailmon",
+      "Scumon",
+      "Tailmon",
+      "Gekomon",
+      "Geremon",
+      "Platinum Scumon"
+    ]
+  },
+  {
+    "Number": 70,
+    "Name": "Dracumon",
+    "Stage": "III",
+    "Attribute": "Virus",
+    "EvolutionsList": [
+      "Sangloupmon",
+      "Scumon",
+      "Wizarmon",
+      "Starmon"
+    ]
+  },
+  {
+    "Number": 71,
+    "Name": "Hagurumon",
+    "Stage": "III",
+    "Attribute": "Virus",
+    "EvolutionsList": [
+      "Clockmon",
+      "Mechanorimon",
+      "Tankmon",
+      "Guardromon",
+      "Blimpmon"
+    ]
+  },
+  {
+    "Number": 72,
+    "Name": "Pico Devimon",
+    "Stage": "III",
+    "Attribute": "Virus",
+    "EvolutionsList": [
+      "Bakemon",
+      "Ice Devimon",
+      "Devimon",
+      "Orgemon"
+    ]
+  },
+  {
+    "Number": 73,
+    "Name": "Funbeemon",
+    "Stage": "III",
+    "Attribute": "Virus",
+    "EvolutionsList": [
+      "Waspmon",
+      "Flymon",
+      "Dokugumon",
+      "Stingmon",
+      "Gold Numemon",
+      "Kabuterimon"
+    ]
+  },
+  {
+    "Number": 74,
+    "Name": "Betamon",
+    "Stage": "III",
+    "Attribute": "Virus",
+    "EvolutionsList": [
+      "Seadramon",
+      "Coelamon",
+      "Devimon",
+      "Numemon",
+      "Vegimon",
+      "Tuskmon"
+    ]
+  },
+  {
+    "Number": 75,
+    "Name": "Mushmon",
+    "Stage": "III",
+    "Attribute": "Virus",
+    "EvolutionsList": [
+      "Scumon",
+      "Nanimon",
+      "Woodmon",
+      "Flymon"
+    ]
+  },
+  {
+    "Number": 76,
+    "Name": "Armadimon",
+    "Stage": "III",
+    "Attribute": "Free",
+    "EvolutionsList": [
+      "Digmon",
+      "Submarimon",
+      "Golemon",
+      "Ankylomon"
+    ]
+  },
+  {
+    "Number": 77,
+    "Name": "V-Mon",
+    "Stage": "III",
+    "Attribute": "Free",
+    "EvolutionsList": [
+      "Xv-Mon",
+      "V-Dramon",
+      "Lighdramon",
+      "Magnamon",
+      "Fladramon"
+    ]
+  },
+  {
+    "Number": 78,
+    "Name": "Hawkmon",
+    "Stage": "III",
+    "Attribute": "Free",
+    "EvolutionsList": [
+      "Firamon",
+      "Holsmon",
+      "Shurimon",
+      "Aquilamon"
+    ]
+  },
+  {
+    "Number": 79,
+    "Name": "Wormmon",
+    "Stage": "III",
+    "Attribute": "Free",
+    "EvolutionsList": [
+      "Stingmon",
+      "Dokugumon",
+      "Snimon"
+    ]
+  },
+  {
+    "Number": 80,
+    "Name": "Keramon",
+    "Stage": "III",
+    "Attribute": "Unknown",
+    "EvolutionsList": [
+      "Dokugumon",
+      "Wendimon",
+      "Octmon",
+      "Mechanorimon",
+      "Chrysalimon"
+    ]
+  },
+  {
+    "Number": 81,
+    "Name": "Aegiomon",
+    "Stage": "IV",
+    "Attribute": "Vaccine",
+    "EvolutionsList": [
+      "Aegiochusmon",
+      "Aegiochusmon: Dark",
+      "Aegiochusmon: Holy",
+      "Aegiochusmon: Blue",
+      "Aegiochusmon: Green"
+    ]
+  },
+  {
+    "Number": 82,
+    "Name": "Ikkakumon",
+    "Stage": "IV",
+    "Attribute": "Vaccine",
+    "EvolutionsList": [
+      "Whamon",
+      "Mega Seadramon",
+      "Zudomon",
+      "Skullseadramon"
+    ]
+  },
+  {
+    "Number": 83,
+    "Name": "Airdramon",
+    "Stage": "IV",
+    "Attribute": "Vaccine",
+    "EvolutionsList": [
+      "Hisyaryumon",
+      "Megadramon",
+      "Aero V-Dramon",
+      "Gigadramon"
+    ]
+  },
+  {
+    "Number": 84,
+    "Name": "Angemon",
+    "Stage": "IV",
+    "Attribute": "Vaccine",
+    "EvolutionsList": [
+      "Hippogriffomon",
+      "Holy Angemon",
+      "Sirenmon",
+      "Shakkoumon"
+    ]
+  },
+  {
+    "Number": 85,
+    "Name": "Kabuterimon",
+    "Stage": "IV",
+    "Attribute": "Vaccine",
+    "EvolutionsList": [
+      "Lilamon",
+      "Atlur Kabuterimon",
+      "Cannonbeemon",
+      "Chimairamon"
+    ]
+  },
+  {
+    "Number": 86,
+    "Name": "Gargomon",
+    "Stage": "IV",
+    "Attribute": "Vaccine",
+    "EvolutionsList": [
+      "Catch Mamemon",
+      "Mach Gaogamon",
+      "Rapidmon Perfect"
+    ]
+  },
+  {
+    "Number": 87,
+    "Name": "Garurumon",
+    "Stage": "IV",
+    "Attribute": "Vaccine",
+    "EvolutionsList": [
+      "Were Garurumon",
+      "Blue Meramon",
+      "Taomon",
+      "Chimairamon"
+    ]
+  },
+  {
+    "Number": 88,
+    "Name": "Ginryumon",
+    "Stage": "IV",
+    "Attribute": "Vaccine",
+    "EvolutionsList": [
+      "Hisyaryumon",
+      "Skull Greymon",
+      "Butenmon"
+    ]
+  },
+  {
+    "Number": 89,
+    "Name": "Gryzmon",
+    "Stage": "IV",
+    "Attribute": "Vaccine",
+    "EvolutionsList": [
+      "Were Garurumon",
+      "Grappu Leomon",
+      "Great Gryzmon"
+    ]
+  },
+  {
+    "Number": 90,
+    "Name": "Greymon",
+    "Stage": "IV",
+    "Attribute": "Vaccine",
+    "EvolutionsList": [
+      "Metal Greymon",
+      "Megadramon",
+      "Skull Greymon",
+      "Chimairamon"
+    ]
+  },
+  {
+    "Number": 91,
+    "Name": "Coredramon (Blue)",
+    "Stage": "IV",
+    "Attribute": "Vaccine",
+    "EvolutionsList": [
+      "Wingdramon",
+      "Aero V-Dramon",
+      "Gigadramon"
+    ]
+  },
+  {
+    "Number": 92,
+    "Name": "Geo Greymon",
+    "Stage": "IV",
+    "Attribute": "Vaccine",
+    "EvolutionsList": [
+      "Rize Greymon",
+      "Metal Tyranomon",
+      "Cyberdramon"
+    ]
+  },
+  {
+    "Number": 93,
+    "Name": "Strikedramon",
+    "Stage": "IV",
+    "Attribute": "Vaccine",
+    "EvolutionsList": [
+      "Cyberdramon",
+      "Savior Hackmon",
+      "Locomon"
+    ]
+  },
+  {
+    "Number": 94,
+    "Name": "Snimon",
+    "Stage": "IV",
+    "Attribute": "Vaccine",
+    "EvolutionsList": [
+      "Okuwamon",
+      "Fantomon",
+      "Archnemon",
+      "Jewelbeemon"
+    ]
+  },
+  {
+    "Number": 95,
+    "Name": "Zubaeagermon",
+    "Stage": "IV",
+    "Attribute": "Vaccine",
+    "EvolutionsList": [
+      "Grademon",
+      "Megalo Growmon",
+      "Duramon",
+      "Knightmon"
+    ]
+  },
+  {
+    "Number": 96,
+    "Name": "Sorcerimon",
+    "Stage": "IV",
+    "Attribute": "Vaccine",
+    "EvolutionsList": [
+      "Holy Angemon",
+      "Piccolomon",
+      "Wisemon"
+    ]
+  },
+  {
+    "Number": 97,
+    "Name": "Tailmon",
+    "Stage": "IV",
+    "Attribute": "Vaccine",
+    "EvolutionsList": [
+      "Nefertimon",
+      "Angewomon",
+      "Silphymon"
+    ]
+  },
+  {
+    "Number": 98,
+    "Name": "Dobermon",
+    "Stage": "IV",
+    "Attribute": "Vaccine",
+    "EvolutionsList": [
+      "Matadrmon",
+      "Dark Super Starmon",
+      "Cerberumon",
+      "Mummymon"
+    ]
+  },
+  {
+    "Number": 99,
+    "Name": "Birdramon",
+    "Stage": "IV",
+    "Attribute": "Vaccine",
+    "EvolutionsList": [
+      "Flaremon",
+      "Garudamon",
+      "Death Meramon",
+      "Parrotmon"
+    ]
+  },
+  {
+    "Number": 100,
+    "Name": "Firamon",
+    "Stage": "IV",
+    "Attribute": "Vaccine",
+    "EvolutionsList": [
+      "Flaremon",
+      "Savior Hackmon",
+      "Mistymon"
+    ]
+  },
+  {
+    "Number": 101,
+    "Name": "V-Dramon",
+    "Stage": "IV",
+    "Attribute": "Vaccine",
+    "EvolutionsList": [
+      "Wingdramon",
+      "Aero V-Dramon",
+      "Cyberdramon"
+    ]
+  },
+  {
+    "Number": 102,
+    "Name": "Buraimon",
+    "Stage": "IV",
+    "Attribute": "Vaccine",
+    "EvolutionsList": [
+      "Butenmon",
+      "Duramon",
+      "Garudamon"
+    ]
+  },
+  {
+    "Number": 103,
+    "Name": "Peckmon",
+    "Stage": "IV",
+    "Attribute": "Vaccine",
+    "EvolutionsList": [
+      "Tyilinmon",
+      "Vamdemon",
+      "Yatagaramon"
+    ]
+  },
+  {
+    "Number": 104,
+    "Name": "Mojyamon",
+    "Stage": "IV",
+    "Attribute": "Vaccine",
+    "EvolutionsList": [
+      "Zudomon",
+      "Piccolomon",
+      "Mistymon",
+      "Mammon"
+    ]
+  },
+  {
+    "Number": 105,
+    "Name": "Yukidarumon",
+    "Stage": "IV",
+    "Attribute": "Vaccine",
+    "EvolutionsList": [
+      "Crescemon",
+      "Angewomon",
+      "Panjyamon",
+      "Insekimon",
+      "Mammon"
+    ]
+  },
+  {
+    "Number": 106,
+    "Name": "Unimon",
+    "Stage": "IV",
+    "Attribute": "Vaccine",
+    "EvolutionsList": [
+      "Hippogriffomon",
+      "Holy Angemon",
+      "Tyilinmon"
+    ]
+  },
+  {
+    "Number": 107,
+    "Name": "Raptordramon",
+    "Stage": "IV",
+    "Attribute": "Vaccine",
+    "EvolutionsList": [
+      "Grademon",
+      "Gigadramon",
+      "Tankdramon"
+    ]
+  },
+  {
+    "Number": 108,
+    "Name": "Revolmon",
+    "Stage": "IV",
+    "Attribute": "Vaccine",
+    "EvolutionsList": [
+      "Pandamon",
+      "Super Starmon",
+      "Wisemon"
+    ]
+  },
+  {
+    "Number": 109,
+    "Name": "Leomon",
+    "Stage": "IV",
+    "Attribute": "Vaccine",
+    "EvolutionsList": [
+      "Flaremon",
+      "Grappu Leomon",
+      "Panjyamon",
+      "Loader Leomon"
+    ]
+  },
+  {
+    "Number": 110,
+    "Name": "Reppamon",
+    "Stage": "IV",
+    "Attribute": "Vaccine",
+    "EvolutionsList": [
+      "Tyilinmon",
+      "Mega Seadramon",
+      "Angewomon",
+      "Doruguremon"
+    ]
+  },
+  {
+    "Number": 111,
+    "Name": "Icemon",
+    "Stage": "IV",
+    "Attribute": "Data",
+    "EvolutionsList": [
+      "Crescemon",
+      "Insekimon",
+      "Panjyamon"
+    ]
+  },
+  {
+    "Number": 112,
+    "Name": "Wizarmon",
+    "Stage": "IV",
+    "Attribute": "Data",
+    "EvolutionsList": [
+      "Nanomon",
+      "Mistymon",
+      "Wisemon"
+    ]
+  },
+  {
+    "Number": 113,
+    "Name": "Witchmon",
+    "Stage": "IV",
+    "Attribute": "Data",
+    "EvolutionsList": [
+      "Lady Devimon",
+      "Angewomon",
+      "Lilimon"
+    ]
+  },
+  {
+    "Number": 114,
+    "Name": "Gaogamon",
+    "Stage": "IV",
+    "Attribute": "Data",
+    "EvolutionsList": [
+      "Mach Gaogamon",
+      "Savior Hackmon",
+      "Dark Super Starmon"
+    ]
+  },
+  {
+    "Number": 115,
+    "Name": "Gawappamon",
+    "Stage": "IV",
+    "Attribute": "Data",
+    "EvolutionsList": [
+      "Shawujinmon",
+      "Hangyomon",
+      "Tonosama Gekomon"
+    ]
+  },
+  {
+    "Number": 116,
+    "Name": "Kiwimon",
+    "Stage": "IV",
+    "Attribute": "Data",
+    "EvolutionsList": [
+      "Lilamon",
+      "Sirenmon",
+      "Delumon",
+      "Jyureimon"
+    ]
+  },
+  {
+    "Number": 117,
+    "Name": "Kyubimon",
+    "Stage": "IV",
+    "Attribute": "Data",
+    "EvolutionsList": [
+      "Blue Meramon",
+      "Cerberumon",
+      "Taomon",
+      "Enbarrmon"
+    ]
+  },
+  {
+    "Number": 118,
+    "Name": "Clockmon",
+    "Stage": "IV",
+    "Attribute": "Data",
+    "EvolutionsList": [
+      "Ex-Tyranomon",
+      "Andromon",
+      "Zudomon",
+      "Knightmon"
+    ]
+  },
+  {
+    "Number": 119,
+    "Name": "Centalmon",
+    "Stage": "IV",
+    "Attribute": "Data",
+    "EvolutionsList": [
+      "Andromon",
+      "Nanomon",
+      "Rapidmon Perfect"
+    ]
+  },
+  {
+    "Number": 120,
+    "Name": "Sunflowmon",
+    "Stage": "IV",
+    "Attribute": "Data",
+    "EvolutionsList": [
+      "Lilamon",
+      "Lilimon",
+      "Delumon",
+      "Pumpmon"
+    ]
+  },
+  {
+    "Number": 121,
+    "Name": "Seadramon",
+    "Stage": "IV",
+    "Attribute": "Data",
+    "EvolutionsList": [
+      "Whamon",
+      "Mega Seadramon",
+      "Waru Seadramon",
+      "Hisyaryumon",
+      "Sharkmon",
+      "Skullseadramon"
+    ]
+  },
+  {
+    "Number": 122,
+    "Name": "Coelamon",
+    "Stage": "IV",
+    "Attribute": "Data",
+    "EvolutionsList": [
+      "Waru Seadramon",
+      "Metal Tyranomon",
+      "Anomalocarimon",
+      "Hangyomon",
+      "Skullseadramon"
+    ]
+  },
+  {
+    "Number": 123,
+    "Name": "Shellmon",
+    "Stage": "IV",
+    "Attribute": "Data",
+    "EvolutionsList": [
+      "Whamon",
+      "Piccolomon",
+      "Anomalocarimon"
+    ]
+  },
+  {
+    "Number": 124,
+    "Name": "Starmon",
+    "Stage": "IV",
+    "Attribute": "Data",
+    "EvolutionsList": [
+      "Volcamon",
+      "Super Starmon",
+      "Dark Super Starmon",
+      "Mamemon"
+    ]
+  },
+  {
+    "Number": 125,
+    "Name": "Tankmon",
+    "Stage": "IV",
+    "Attribute": "Data",
+    "EvolutionsList": [
+      "Big Mamemon",
+      "Locomon",
+      "Tankdramon"
+    ]
+  },
+  {
+    "Number": 126,
+    "Name": "Tuchidarumon",
+    "Stage": "IV",
+    "Attribute": "Data",
+    "EvolutionsList": [
+      "Delumon",
+      "Gerbemon",
+      "Andiramon"
+    ]
+  },
+  {
+    "Number": 127,
+    "Name": "Dinohumon",
+    "Stage": "IV",
+    "Attribute": "Data",
+    "EvolutionsList": [
+      "Shawujinmon",
+      "Grademon",
+      "Knightmon"
+    ]
+  },
+  {
+    "Number": 128,
+    "Name": "Tyranomon",
+    "Stage": "IV",
+    "Attribute": "Data",
+    "EvolutionsList": [
+      "Ex-Tyranomon",
+      "Groundramon",
+      "Metal Greymon",
+      "Metal Tyranomon"
+    ]
+  },
+  {
+    "Number": 129,
+    "Name": "Turuiemon",
+    "Stage": "IV",
+    "Attribute": "Data",
+    "EvolutionsList": [
+      "Matadrmon",
+      "Mach Gaogamon",
+      "Andiramon"
+    ]
+  },
+  {
+    "Number": 130,
+    "Name": "Togemon",
+    "Stage": "IV",
+    "Attribute": "Data",
+    "EvolutionsList": [
+      "Lilimon",
+      "Jyureimon",
+      "Pumpmon"
+    ]
+  },
+  {
+    "Number": 131,
+    "Name": "Drimogemon",
+    "Stage": "IV",
+    "Attribute": "Data",
+    "EvolutionsList": [
+      "Triceramon",
+      "Loader Leomon",
+      "Brachiomon"
+    ]
+  },
+  {
+    "Number": 132,
+    "Name": "Dorugamon",
+    "Stage": "IV",
+    "Attribute": "Data",
+    "EvolutionsList": [
+      "Rize Greymon",
+      "Doruguremon",
+      "Great Gryzmon"
+    ]
+  },
+  {
+    "Number": 133,
+    "Name": "Bao Hackmon",
+    "Stage": "IV",
+    "Attribute": "Data",
+    "EvolutionsList": [
+      "Rize Greymon",
+      "Savior Hackmon",
+      "Loader Leomon"
+    ]
+  },
+  {
+    "Number": 134,
+    "Name": "Blimpmon",
+    "Stage": "IV",
+    "Attribute": "Data",
+    "EvolutionsList": [
+      "Locomon",
+      "Metal Mamemon",
+      "Master Blimpmon"
+    ]
+  },
+  {
+    "Number": 135,
+    "Name": "Meramon",
+    "Stage": "IV",
+    "Attribute": "Data",
+    "EvolutionsList": [
+      "Big Mamemon",
+      "Blue Meramon",
+      "Death Meramon"
+    ]
+  },
+  {
+    "Number": 136,
+    "Name": "Monochromon",
+    "Stage": "IV",
+    "Attribute": "Data",
+    "EvolutionsList": [
+      "Triceramon",
+      "Cerberumon",
+      "Mammon"
+    ]
+  },
+  {
+    "Number": 137,
+    "Name": "Lekismon",
+    "Stage": "IV",
+    "Attribute": "Data",
+    "EvolutionsList": [
+      "Crescemon",
+      "Were Garurumon",
+      "Grappu Leomon"
+    ]
+  },
+  {
+    "Number": 138,
+    "Name": "Ice Devimon",
+    "Stage": "IV",
+    "Attribute": "Virus",
+    "EvolutionsList": [
+      "Crescemon",
+      "Lady Devimon",
+      "Panjyamon",
+      "Enbarrmon"
+    ]
+  },
+  {
+    "Number": 139,
+    "Name": "Wendimon",
+    "Stage": "IV",
+    "Attribute": "Virus",
+    "EvolutionsList": [
+      "Archnemon",
+      "Death Meramon",
+      "Andiramon"
+    ]
+  },
+  {
+    "Number": 140,
+    "Name": "Woodmon",
+    "Stage": "IV",
+    "Attribute": "Virus",
+    "EvolutionsList": [
+      "Jyureimon",
+      "Taomon",
+      "Pumpmon"
+    ]
+  },
+  {
+    "Number": 141,
+    "Name": "Orgemon",
+    "Stage": "IV",
+    "Attribute": "Virus",
+    "EvolutionsList": [
+      "Skull Satamon",
+      "Mummymon",
+      "Digitamamon"
+    ]
+  },
+  {
+    "Number": 142,
+    "Name": "Octmon",
+    "Stage": "IV",
+    "Attribute": "Virus",
+    "EvolutionsList": [
+      "Dagomon",
+      "Digitamamon",
+      "Hangyomon"
+    ]
+  },
+  {
+    "Number": 143,
+    "Name": "Guardromon",
+    "Stage": "IV",
+    "Attribute": "Virus",
+    "EvolutionsList": [
+      "Catch Mamemon",
+      "Locomon",
+      "Andromon"
+    ]
+  },
+  {
+    "Number": 144,
+    "Name": "Karatuki Numemon",
+    "Stage": "IV",
+    "Attribute": "Virus",
+    "EvolutionsList": [
+      "Orochimon",
+      "Waru Seadramon",
+      "Black King Numemon",
+      "Pandamon"
+    ]
+  },
+  {
+    "Number": 145,
+    "Name": "Growmon",
+    "Stage": "IV",
+    "Attribute": "Virus",
+    "EvolutionsList": [
+      "Megalo Growmon",
+      "Groundramon",
+      "Doruguremon"
+    ]
+  },
+  {
+    "Number": 146,
+    "Name": "Kuwagamon",
+    "Stage": "IV",
+    "Attribute": "Virus",
+    "EvolutionsList": [
+      "Jyureimon",
+      "Okuwamon",
+      "Anomalocarimon",
+      "Chimairamon"
+    ]
+  },
+  {
+    "Number": 147,
+    "Name": "Gekomon",
+    "Stage": "IV",
+    "Attribute": "Virus",
+    "EvolutionsList": [
+      "Sirenmon",
+      "Tonosama Gekomon",
+      "Hangyomon"
+    ]
+  },
+  {
+    "Number": 148,
+    "Name": "Geremon",
+    "Stage": "IV",
+    "Attribute": "Virus",
+    "EvolutionsList": [
+      "Catch Mamemon",
+      "Super Starmon",
+      "Monzaemon"
+    ]
+  },
+  {
+    "Number": 149,
+    "Name": "Coredramon (Green)",
+    "Stage": "IV",
+    "Attribute": "Virus",
+    "EvolutionsList": [
+      "Megalo Growmon",
+      "Groundramon",
+      "Skull Greymon"
+    ]
+  },
+  {
+    "Number": 150,
+    "Name": "Gold Numemon",
+    "Stage": "IV",
+    "Attribute": "Virus",
+    "EvolutionsList": [
+      "Waru Seadramon",
+      "Vademon",
+      "Black King Numemon"
+    ]
+  },
+  {
+    "Number": 151,
+    "Name": "Golemon",
+    "Stage": "IV",
+    "Attribute": "Virus",
+    "EvolutionsList": [
+      "Volcamon",
+      "Mammon",
+      "Insekimon"
+    ]
+  },
+  {
+    "Number": 152,
+    "Name": "Cyclomon",
+    "Stage": "IV",
+    "Attribute": "Virus",
+    "EvolutionsList": [
+      "Grademon",
+      "Cyberdramon",
+      "Brachiomon"
+    ]
+  },
+  {
+    "Number": 153,
+    "Name": "Sangloupmon",
+    "Stage": "IV",
+    "Attribute": "Virus",
+    "EvolutionsList": [
+      "Matadrmon",
+      "Vamdemon",
+      "Astamon"
+    ]
+  },
+  {
+    "Number": 154,
+    "Name": "Scumon",
+    "Stage": "IV",
+    "Attribute": "Virus",
+    "EvolutionsList": [
+      "Monzaemon",
+      "Etemon",
+      "Gerbemon",
+      "Mamemon"
+    ]
+  },
+  {
+    "Number": 155,
+    "Name": "Tuskmon",
+    "Stage": "IV",
+    "Attribute": "Virus",
+    "EvolutionsList": [
+      "Triceramon",
+      "Groundramon",
+      "Digitamamon"
+    ]
+  },
+  {
+    "Number": 156,
+    "Name": "Devimon",
+    "Stage": "IV",
+    "Attribute": "Virus",
+    "EvolutionsList": [
+      "Vamdemon",
+      "Lady Devimon",
+      "Infermon",
+      "Skull Satamon",
+      "Astamon"
+    ]
+  },
+  {
+    "Number": 157,
+    "Name": "Deltamon",
+    "Stage": "IV",
+    "Attribute": "Virus",
+    "EvolutionsList": [
+      "Orochimon",
+      "Chimairamon",
+      "Skull Baluchimon",
+      "Metal Greymon",
+      "Sharkmon"
+    ]
+  },
+  {
+    "Number": 158,
+    "Name": "Dokugumon",
+    "Stage": "IV",
+    "Attribute": "Virus",
+    "EvolutionsList": [
+      "Archnemon",
+      "Mummymon",
+      "Atlur Kabuterimon",
+      "Infermon"
+    ]
+  },
+  {
+    "Number": 159,
+    "Name": "Nanimon",
+    "Stage": "IV",
+    "Attribute": "Virus",
+    "EvolutionsList": [
+      "Volcamon",
+      "Super Starmon",
+      "Etemon",
+      "Mamemon"
+    ]
+  },
+  {
+    "Number": 160,
+    "Name": "Numemon",
+    "Stage": "IV",
+    "Attribute": "Virus",
+    "EvolutionsList": [
+      "Monzaemon",
+      "Dark Super Starmon",
+      "Etemon"
+    ]
+  },
+  {
+    "Number": 161,
+    "Name": "Bakemon",
+    "Stage": "IV",
+    "Attribute": "Virus",
+    "EvolutionsList": [
+      "Vamdemon",
+      "Blue Meramon",
+      "Fantomon",
+      "Enbarrmon"
+    ]
+  },
+  {
+    "Number": 162,
+    "Name": "Hyougamon",
+    "Stage": "IV",
+    "Attribute": "Virus",
+    "EvolutionsList": [
+      "Zudomon",
+      "Fantomon",
+      "Panjyamon"
+    ]
+  },
+  {
+    "Number": 163,
+    "Name": "Fugamon",
+    "Stage": "IV",
+    "Attribute": "Virus",
+    "EvolutionsList": [
+      "Volcamon",
+      "Skull Satamon",
+      "Garudamon"
+    ]
+  },
+  {
+    "Number": 164,
+    "Name": "Flymon",
+    "Stage": "IV",
+    "Attribute": "Virus",
+    "EvolutionsList": [
+      "Megadramon",
+      "Atlur Kabuterimon",
+      "Okuwamon",
+      "Jewelbeemon"
+    ]
+  },
+  {
+    "Number": 165,
+    "Name": "Platinum Scumon",
+    "Stage": "IV",
+    "Attribute": "Virus",
+    "EvolutionsList": [
+      "Vademon",
+      "Mamemon",
+      "Metal Mamemon"
+    ]
+  },
+  {
+    "Number": 166,
+    "Name": "Black Tailmon",
+    "Stage": "IV",
+    "Attribute": "Virus",
+    "EvolutionsList": [
+      "Pandamon",
+      "Lady Devimon",
+      "Skull Baluchimon"
+    ]
+  },
+  {
+    "Number": 167,
+    "Name": "Vegimon",
+    "Stage": "IV",
+    "Attribute": "Virus",
+    "EvolutionsList": [
+      "Tonosama Gekomon",
+      "Gerbemon",
+      "Vademon"
+    ]
+  },
+  {
+    "Number": 168,
+    "Name": "Minotaurmon",
+    "Stage": "IV",
+    "Attribute": "Virus",
+    "EvolutionsList": [
+      "Triceramon",
+      "Etemon",
+      "Grappu Leomon"
+    ]
+  },
+  {
+    "Number": 169,
+    "Name": "Musyamon",
+    "Stage": "IV",
+    "Attribute": "Virus",
+    "EvolutionsList": [
+      "Grademon",
+      "Butenmon",
+      "Hisyaryumon"
+    ]
+  },
+  {
+    "Number": 170,
+    "Name": "Mechanorimon",
+    "Stage": "IV",
+    "Attribute": "Virus",
+    "EvolutionsList": [
+      "Big Mamemon",
+      "Megadramon",
+      "Nanomon"
+    ]
+  },
+  {
+    "Number": 171,
+    "Name": "Raremon",
+    "Stage": "IV",
+    "Attribute": "Virus",
+    "EvolutionsList": [
+      "Dagomon",
+      "Black King Numemon",
+      "Tonosama Gekomon",
+      "Ex-Tyranomon",
+      "Skull Baluchimon"
+    ]
+  },
+  {
+    "Number": 172,
+    "Name": "Waspmon",
+    "Stage": "IV",
+    "Attribute": "Virus",
+    "EvolutionsList": [
+      "Rapidmon Perfect",
+      "Cannonbeemon",
+      "Tankdramon"
+    ]
+  },
+  {
+    "Number": 173,
+    "Name": "Aquilamon",
+    "Stage": "IV",
+    "Attribute": "Free",
+    "EvolutionsList": [
+      "Garudamon",
+      "Parrotmon",
+      "Silphymon",
+      "Yatagaramon"
+    ]
+  },
+  {
+    "Number": 174,
+    "Name": "Ankylomon",
+    "Stage": "IV",
+    "Attribute": "Free",
+    "EvolutionsList": [
+      "Shakkoumon",
+      "Insekimon",
+      "Brachiomon"
+    ]
+  },
+  {
+    "Number": 175,
+    "Name": "Xv-Mon",
+    "Stage": "IV",
+    "Attribute": "Free",
+    "EvolutionsList": [
+      "Dinobeemon",
+      "Rize Greymon",
+      "Paildramon"
+    ]
+  },
+  {
+    "Number": 176,
+    "Name": "Guardromon (Gold)",
+    "Stage": "IV",
+    "Attribute": "Free",
+    "EvolutionsList": [
+      "Duramon",
+      "Cannonbeemon",
+      "Master Blimpmon"
+    ]
+  },
+  {
+    "Number": 177,
+    "Name": "Stingmon",
+    "Stage": "IV",
+    "Attribute": "Free",
+    "EvolutionsList": [
+      "Okuwamon",
+      "Jewelbeemon",
+      "Dinobeemon",
+      "Paildramon"
+    ]
+  },
+  {
+    "Number": 178,
+    "Name": "Chrysalimon",
+    "Stage": "IV",
+    "Attribute": "Unknown",
+    "EvolutionsList": [
+      "Dagomon",
+      "Orochimon",
+      "Archnemon",
+      "Infermon"
+    ]
+  },
+  {
+    "Number": 179,
+    "Name": "Submarimon",
+    "Stage": "Armor",
+    "Attribute": "Free",
+    "EvolutionsList": []
+  },
+  {
+    "Number": 180,
+    "Name": "Shurimon",
+    "Stage": "Armor",
+    "Attribute": "Free",
+    "EvolutionsList": []
+  },
+  {
+    "Number": 181,
+    "Name": "Digmon",
+    "Stage": "Armor",
+    "Attribute": "Free",
+    "EvolutionsList": []
+  },
+  {
+    "Number": 182,
+    "Name": "Nefertimon",
+    "Stage": "Armor",
+    "Attribute": "Free",
+    "EvolutionsList": []
+  },
+  {
+    "Number": 183,
+    "Name": "Fladramon",
+    "Stage": "Armor",
+    "Attribute": "Free",
+    "EvolutionsList": []
+  },
+  {
+    "Number": 184,
+    "Name": "Pegasmon",
+    "Stage": "Armor",
+    "Attribute": "Free",
+    "EvolutionsList": []
+  },
+  {
+    "Number": 185,
+    "Name": "Holsmon",
+    "Stage": "Armor",
+    "Attribute": "Free",
+    "EvolutionsList": []
+  },
+  {
+    "Number": 186,
+    "Name": "Lighdramon",
+    "Stage": "Armor",
+    "Attribute": "Free",
+    "EvolutionsList": []
+  },
+  {
+    "Number": 187,
+    "Name": "Agnimon",
+    "Stage": "Human Hybrid",
+    "Attribute": "Variable",
+    "EvolutionsList": [
+      "Aldamon",
+      "Vritramon"
+    ]
+  },
+  {
+    "Number": 188,
+    "Name": "Wolfmon",
+    "Stage": "Human Hybrid",
+    "Attribute": "Variable",
+    "EvolutionsList": [
+      "Beowolfmon",
+      "Garummon"
+    ]
+  },
+  {
+    "Number": 189,
+    "Name": "Ranamon",
+    "Stage": "Human Hybrid",
+    "Attribute": "Variable",
+    "EvolutionsList": [
+      "Calamaramon"
+    ]
+  },
+  {
+    "Number": 190,
+    "Name": "Vritramon",
+    "Stage": "Beast Hybrid",
+    "Attribute": "Variable",
+    "EvolutionsList": [
+      "Aldamon",
+      "Agnimon"
+    ]
+  },
+  {
+    "Number": 191,
+    "Name": "Calamaramon",
+    "Stage": "Beast Hybrid",
+    "Attribute": "Variable",
+    "EvolutionsList": [
+      "Ranamon"
+    ]
+  },
+  {
+    "Number": 192,
+    "Name": "Garummon",
+    "Stage": "Beast Hybrid",
+    "Attribute": "Variable",
+    "EvolutionsList": [
+      "Beowolfmon",
+      "Wolfmon"
+    ]
+  },
+  {
+    "Number": 193,
+    "Name": "Aegiochusmon",
+    "Stage": "V",
+    "Attribute": "Vaccine",
+    "EvolutionsList": [
+      "Jupitermon"
+    ]
+  },
+  {
+    "Number": 194,
+    "Name": "Aegiochusmon: Green",
+    "Stage": "V",
+    "Attribute": "Vaccine",
+    "EvolutionsList": [
+      "Jupitermon"
+    ]
+  },
+  {
+    "Number": 195,
+    "Name": "Aegiochusmon: Dark",
+    "Stage": "V",
+    "Attribute": "Vaccine",
+    "EvolutionsList": [
+      "Chronomon Destroy"
+    ]
+  },
+  {
+    "Number": 196,
+    "Name": "Aegiochusmon: Blue",
+    "Stage": "V",
+    "Attribute": "Vaccine",
+    "EvolutionsList": [
+      "Jupitermon"
+    ]
+  },
+  {
+    "Number": 197,
+    "Name": "Aegiochusmon: Holy",
+    "Stage": "V",
+    "Attribute": "Vaccine",
+    "EvolutionsList": [
+      "Jupitermon"
+    ]
+  },
+  {
+    "Number": 198,
+    "Name": "Atlur Kabuterimon",
+    "Stage": "V",
+    "Attribute": "Vaccine",
+    "EvolutionsList": [
+      "Tyrant Kabuterimon",
+      "Herakle Kabuterimon"
+    ]
+  },
+  {
+    "Number": 199,
+    "Name": "Andromon",
+    "Stage": "V",
+    "Attribute": "Vaccine",
+    "EvolutionsList": [
+      "Hi Andromon",
+      "Boltmon",
+      "Craniummon"
+    ]
+  },
+  {
+    "Number": 200,
+    "Name": "Wingdramon",
+    "Stage": "V",
+    "Attribute": "Vaccine",
+    "EvolutionsList": [
+      "Shine Greymon",
+      "Valdurmon",
+      "Slayerdramon"
+    ]
+  },
+  {
+    "Number": 201,
+    "Name": "Aero V-Dramon",
+    "Stage": "V",
+    "Attribute": "Vaccine",
+    "EvolutionsList": [
+      "Goddramon",
+      "Slayerdramon",
+      "Ulforce V-Dramon"
+    ]
+  },
+  {
+    "Number": 202,
+    "Name": "Ex-Tyranomon",
+    "Stage": "V",
+    "Attribute": "Vaccine",
+    "EvolutionsList": [
+      "Rust Tyranomon",
+      "Belphemon: Sleep Mode",
+      "Cherubimon (Virtue)"
+    ]
+  },
+  {
+    "Number": 203,
+    "Name": "Angewomon",
+    "Stage": "V",
+    "Attribute": "Vaccine",
+    "EvolutionsList": [
+      "Junomon",
+      "Ofanimon",
+      "Holydramon",
+      "Mastemon"
+    ]
+  },
+  {
+    "Number": 204,
+    "Name": "Garudamon",
+    "Stage": "V",
+    "Attribute": "Vaccine",
+    "EvolutionsList": [
+      "Griffomon",
+      "Hououmon",
+      "Jesmon"
+    ]
+  },
+  {
+    "Number": 205,
+    "Name": "Grappu Leomon",
+    "Stage": "V",
+    "Attribute": "Vaccine",
+    "EvolutionsList": [
+      "Bancho Leomon",
+      "Marsmon",
+      "Saber Leomon",
+      "Duftmon"
+    ]
+  },
+  {
+    "Number": 206,
+    "Name": "Grademon",
+    "Stage": "V",
+    "Attribute": "Vaccine",
+    "EvolutionsList": [
+      "Alphamon",
+      "Durandamon",
+      "Dynasmon"
+    ]
+  },
+  {
+    "Number": 207,
+    "Name": "Great Gryzmon",
+    "Stage": "V",
+    "Attribute": "Vaccine",
+    "EvolutionsList": [
+      "Callismon",
+      "Cherubimon (Vice)"
+    ]
+  },
+  {
+    "Number": 208,
+    "Name": "Cerberumon",
+    "Stage": "V",
+    "Attribute": "Vaccine",
+    "EvolutionsList": [
+      "Plutomon",
+      "Cerberumon: Werewolf Mode",
+      "Saber Leomon"
+    ]
+  },
+  {
+    "Number": 209,
+    "Name": "Cerberumon: Werewolf Mode",
+    "Stage": "V",
+    "Attribute": "Vaccine",
+    "EvolutionsList": [
+      "Plutomon",
+      "Cerberumon",
+      "Saber Leomon"
+    ]
+  },
+  {
+    "Number": 210,
+    "Name": "Cyberdramon",
+    "Stage": "V",
+    "Attribute": "Vaccine",
+    "EvolutionsList": [
+      "Ulforce V-Dramon",
+      "Justimon"
+    ]
+  },
+  {
+    "Number": 211,
+    "Name": "Jewelbeemon",
+    "Stage": "V",
+    "Attribute": "Vaccine",
+    "EvolutionsList": [
+      "Herakle Kabuterimon",
+      "Tiger Vespamon"
+    ]
+  },
+  {
+    "Number": 212,
+    "Name": "Zudomon",
+    "Stage": "V",
+    "Attribute": "Vaccine",
+    "EvolutionsList": [
+      "Vikemon",
+      "Plesiomon"
+    ]
+  },
+  {
+    "Number": 213,
+    "Name": "Tyilinmon",
+    "Stage": "V",
+    "Attribute": "Vaccine",
+    "EvolutionsList": [
+      "Sleipmon",
+      "Crossmon",
+      "Valkyrimon"
+    ]
+  },
+  {
+    "Number": 214,
+    "Name": "Duramon",
+    "Stage": "V",
+    "Attribute": "Vaccine",
+    "EvolutionsList": [
+      "War Greymon",
+      "Dukemon",
+      "Durandamon"
+    ]
+  },
+  {
+    "Number": 215,
+    "Name": "Parrotmon",
+    "Stage": "V",
+    "Attribute": "Vaccine",
+    "EvolutionsList": [
+      "Crossmon",
+      "Hououmon"
+    ]
+  },
+  {
+    "Number": 216,
+    "Name": "Panjyamon",
+    "Stage": "V",
+    "Attribute": "Vaccine",
+    "EvolutionsList": [
+      "Mirage Gaogamon",
+      "Saber Leomon"
+    ]
+  },
+  {
+    "Number": 217,
+    "Name": "Hisyaryumon",
+    "Stage": "V",
+    "Attribute": "Vaccine",
+    "EvolutionsList": [
+      "Ouryumon",
+      "Gaioumon"
+    ]
+  },
+  {
+    "Number": 218,
+    "Name": "Butenmon",
+    "Stage": "V",
+    "Attribute": "Vaccine",
+    "EvolutionsList": [
+      "Chronomon",
+      "Chronomon Destroy",
+      "Griffomon",
+      "Gaioumon"
+    ]
+  },
+  {
+    "Number": 219,
+    "Name": "Flaremon",
+    "Stage": "V",
+    "Attribute": "Vaccine",
+    "EvolutionsList": [
+      "Apollomon",
+      "Seraphimon"
+    ]
+  },
+  {
+    "Number": 220,
+    "Name": "Whamon",
+    "Stage": "V",
+    "Attribute": "Vaccine",
+    "EvolutionsList": [
+      "Leviamon",
+      "Neptunemon",
+      "Plesiomon",
+      "Marin Angemon"
+    ]
+  },
+  {
+    "Number": 221,
+    "Name": "Holy Angemon",
+    "Stage": "V",
+    "Attribute": "Vaccine",
+    "EvolutionsList": [
+      "Goddramon",
+      "Seraphimon",
+      "Clavis Angemon",
+      "Slash Angemon"
+    ]
+  },
+  {
+    "Number": 222,
+    "Name": "Mammon",
+    "Stage": "V",
+    "Attribute": "Vaccine",
+    "EvolutionsList": [
+      "Vikemon",
+      "Skull Mammon"
+    ]
+  },
+  {
+    "Number": 223,
+    "Name": "Metal Greymon",
+    "Stage": "V",
+    "Attribute": "Vaccine",
+    "EvolutionsList": [
+      "War Greymon",
+      "Gaioumon"
+    ]
+  },
+  {
+    "Number": 224,
+    "Name": "Monzaemon",
+    "Stage": "V",
+    "Attribute": "Vaccine",
+    "EvolutionsList": [
+      "King Etemon",
+      "Callismon"
+    ]
+  },
+  {
+    "Number": 225,
+    "Name": "Yatagaramon",
+    "Stage": "V",
+    "Attribute": "Vaccine",
+    "EvolutionsList": [
+      "Valdurmon",
+      "Ravmon",
+      "Kuzuhamon"
+    ]
+  },
+  {
+    "Number": 226,
+    "Name": "Rize Greymon",
+    "Stage": "V",
+    "Attribute": "Vaccine",
+    "EvolutionsList": [
+      "Sleipmon",
+      "Shine Greymon",
+      "Magna Kidmon"
+    ]
+  },
+  {
+    "Number": 227,
+    "Name": "Rapidmon Perfect",
+    "Stage": "V",
+    "Attribute": "Vaccine",
+    "EvolutionsList": [
+      "Saint Galgomon",
+      "Hi Andromon"
+    ]
+  },
+  {
+    "Number": 228,
+    "Name": "Loader Leomon",
+    "Stage": "V",
+    "Attribute": "Vaccine",
+    "EvolutionsList": [
+      "Bancho Leomon",
+      "Metal Garurumon",
+      "Chaosdramon"
+    ]
+  },
+  {
+    "Number": 229,
+    "Name": "Were Garurumon",
+    "Stage": "V",
+    "Attribute": "Vaccine",
+    "EvolutionsList": [
+      "Mercurymon",
+      "Metal Garurumon"
+    ]
+  },
+  {
+    "Number": 230,
+    "Name": "Anomalocarimon",
+    "Stage": "V",
+    "Attribute": "Data",
+    "EvolutionsList": [
+      "Vulcanusmon",
+      "Pukumon"
+    ]
+  },
+  {
+    "Number": 231,
+    "Name": "Enbarrmon",
+    "Stage": "V",
+    "Attribute": "Data",
+    "EvolutionsList": [
+      "Sleipmon",
+      "Skull Mammon",
+      "Enbarrmon Craniummon"
+    ]
+  },
+  {
+    "Number": 232,
+    "Name": "Andiramon",
+    "Stage": "V",
+    "Attribute": "Data",
+    "EvolutionsList": [
+      "Dianamon",
+      "Cherubimon (Virtue)",
+      "Cherubimon (Vice)"
+    ]
+  },
+  {
+    "Number": 233,
+    "Name": "Insekimon",
+    "Stage": "V",
+    "Attribute": "Data",
+    "EvolutionsList": [
+      "Metal Etemon",
+      "Boltmon"
+    ]
+  },
+  {
+    "Number": 234,
+    "Name": "Omega Shoutmon",
+    "Stage": "V",
+    "Attribute": "Data",
+    "EvolutionsList": [
+      "Pile Volcamon",
+      "Magna Kidmon",
+      "Durandamon"
+    ]
+  },
+  {
+    "Number": 235,
+    "Name": "Chimairamon",
+    "Stage": "V",
+    "Attribute": "Data",
+    "EvolutionsList": [
+      "Grand Dracumon",
+      "Millenniumon",
+      "Mugendramon"
+    ]
+  },
+  {
+    "Number": 236,
+    "Name": "Catch Mamemon",
+    "Stage": "V",
+    "Attribute": "Data",
+    "EvolutionsList": [
+      "Platinum Numemon",
+      "Prince Mamemon"
+    ]
+  },
+  {
+    "Number": 237,
+    "Name": "Crescemon",
+    "Stage": "V",
+    "Attribute": "Data",
+    "EvolutionsList": [
+      "Dianamon",
+      "Cherubimon (Virtue)",
+      "Lord Knightmon"
+    ]
+  },
+  {
+    "Number": 238,
+    "Name": "Super Starmon",
+    "Stage": "V",
+    "Attribute": "Data",
+    "EvolutionsList": [
+      "Goddramon",
+      "Prince Mamemon",
+      "Justimon"
+    ]
+  },
+  {
+    "Number": 239,
+    "Name": "Skull Baluchimon",
+    "Stage": "V",
+    "Attribute": "Data",
+    "EvolutionsList": [
+      "Skull Mammon",
+      "Skull Baluchimon Titamon"
+    ]
+  },
+  {
+    "Number": 240,
+    "Name": "Savior Hackmon",
+    "Stage": "V",
+    "Attribute": "Data",
+    "EvolutionsList": [
+      "Gankoomon",
+      "Tiger Vespamon",
+      "Jesmon"
+    ]
+  },
+  {
+    "Number": 241,
+    "Name": "Sirenmon",
+    "Stage": "V",
+    "Attribute": "Data",
+    "EvolutionsList": [
+      "Marin Angemon",
+      "Ceresmon"
+    ]
+  },
+  {
+    "Number": 242,
+    "Name": "Taomon",
+    "Stage": "V",
+    "Attribute": "Data",
+    "EvolutionsList": [
+      "Venusmon",
+      "Sakuyamon",
+      "Kuzuhamon"
+    ]
+  },
+  {
+    "Number": 243,
+    "Name": "Digitamamon",
+    "Stage": "V",
+    "Attribute": "Data",
+    "EvolutionsList": [
+      "Bacchusmon",
+      "Titamon"
+    ]
+  },
+  {
+    "Number": 244,
+    "Name": "Death Meramon",
+    "Stage": "V",
+    "Attribute": "Data",
+    "EvolutionsList": [
+      "Beelzebumon",
+      "Boltmon",
+      "Avenge Kidmon"
+    ]
+  },
+  {
+    "Number": 245,
+    "Name": "Delumon",
+    "Stage": "V",
+    "Attribute": "Data",
+    "EvolutionsList": [
+      "Valdurmon",
+      "Ceresmon",
+      "Platinum Numemon"
+    ]
+  },
+  {
+    "Number": 246,
+    "Name": "Triceramon",
+    "Stage": "V",
+    "Attribute": "Data",
+    "EvolutionsList": [
+      "Breakdramon",
+      "Ultimate Brachiomon"
+    ]
+  },
+  {
+    "Number": 247,
+    "Name": "Doruguremon",
+    "Stage": "V",
+    "Attribute": "Data",
+    "EvolutionsList": [
+      "Dorugoramon",
+      "Alphamon"
+    ]
+  },
+  {
+    "Number": 248,
+    "Name": "Knightmon",
+    "Stage": "V",
+    "Attribute": "Data",
+    "EvolutionsList": [
+      "Zanbamon",
+      "Slash Angemon",
+      "Lord Knightmon",
+      "Duftmon"
+    ]
+  },
+  {
+    "Number": 249,
+    "Name": "Hangyomon",
+    "Stage": "V",
+    "Attribute": "Data",
+    "EvolutionsList": [
+      "Neptunemon",
+      "Plesiomon"
+    ]
+  },
+  {
+    "Number": 250,
+    "Name": "Pandamon",
+    "Stage": "V",
+    "Attribute": "Data",
+    "EvolutionsList": [
+      "Mercurymon",
+      "Mirage Gaogamon",
+      "Justimon"
+    ]
+  },
+  {
+    "Number": 251,
+    "Name": "Pumpmon",
+    "Stage": "V",
+    "Attribute": "Data",
+    "EvolutionsList": [
+      "Rosemon",
+      "Lotusmon"
+    ]
+  },
+  {
+    "Number": 252,
+    "Name": "Big Mamemon",
+    "Stage": "V",
+    "Attribute": "Data",
+    "EvolutionsList": [
+      "Platinum Numemon",
+      "Prince Mamemon",
+      "Grand Locomon"
+    ]
+  },
+  {
+    "Number": 253,
+    "Name": "Piccolomon",
+    "Stage": "V",
+    "Attribute": "Data",
+    "EvolutionsList": [
+      "Venusmon",
+      "Ofanimon",
+      "Clavis Angemon"
+    ]
+  },
+  {
+    "Number": 254,
+    "Name": "Hippogriffomon",
+    "Stage": "V",
+    "Attribute": "Data",
+    "EvolutionsList": [
+      "Griffomon",
+      "Crossmon",
+      "Dynasmon"
+    ]
+  },
+  {
+    "Number": 255,
+    "Name": "Brachiomon",
+    "Stage": "V",
+    "Attribute": "Data",
+    "EvolutionsList": [
+      "Ouryumon",
+      "Rust Tyranomon",
+      "Ultimate Brachiomon"
+    ]
+  },
+  {
+    "Number": 256,
+    "Name": "Volcamon",
+    "Stage": "V",
+    "Attribute": "Data",
+    "EvolutionsList": [
+      "Bancho Leomon",
+      "Pile Volcamon",
+      "Gankoomon",
+      "Apollomon"
+    ]
+  },
+  {
+    "Number": 257,
+    "Name": "Master Blimpmon",
+    "Stage": "V",
+    "Attribute": "Data",
+    "EvolutionsList": [
+      "Grand Locomon",
+      "Gundramon"
+    ]
+  },
+  {
+    "Number": 258,
+    "Name": "Mach Gaogamon",
+    "Stage": "V",
+    "Attribute": "Data",
+    "EvolutionsList": [
+      "Mirage Gaogamon",
+      "Saint Galgomon"
+    ]
+  },
+  {
+    "Number": 259,
+    "Name": "Mamemon",
+    "Stage": "V",
+    "Attribute": "Data",
+    "EvolutionsList": [
+      "Pukumon",
+      "Prince Mamemon"
+    ]
+  },
+  {
+    "Number": 260,
+    "Name": "Mega Seadramon",
+    "Stage": "V",
+    "Attribute": "Data",
+    "EvolutionsList": [
+      "Jumbo Gamemon",
+      "Ouryumon",
+      "Metal Seadramon"
+    ]
+  },
+  {
+    "Number": 261,
+    "Name": "Metal Mamemon",
+    "Stage": "V",
+    "Attribute": "Data",
+    "EvolutionsList": [
+      "Metal Garurumon",
+      "Magna Kidmon"
+    ]
+  },
+  {
+    "Number": 262,
+    "Name": "Lilamon",
+    "Stage": "V",
+    "Attribute": "Data",
+    "EvolutionsList": [
+      "Lilithmon",
+      "Rosemon",
+      "Pinochimon"
+    ]
+  },
+  {
+    "Number": 263,
+    "Name": "Lilimon",
+    "Stage": "V",
+    "Attribute": "Data",
+    "EvolutionsList": [
+      "Rosemon",
+      "Ceresmon"
+    ]
+  },
+  {
+    "Number": 264,
+    "Name": "Locomon",
+    "Stage": "V",
+    "Attribute": "Data",
+    "EvolutionsList": [
+      "Grand Locomon",
+      "Hi Andromon"
+    ]
+  },
+  {
+    "Number": 265,
+    "Name": "Astamon",
+    "Stage": "V",
+    "Attribute": "Virus",
+    "EvolutionsList": [
+      "Beelzebumon",
+      "Plutomon",
+      "Belphemon: Sleep Mode",
+      "Venom Vamdemon"
+    ]
+  },
+  {
+    "Number": 266,
+    "Name": "Archnemon",
+    "Stage": "V",
+    "Attribute": "Virus",
+    "EvolutionsList": [
+      "Lilithmon",
+      "Tyrant Kabuterimon",
+      "Lotusmon"
+    ]
+  },
+  {
+    "Number": 267,
+    "Name": "Vamdemon",
+    "Stage": "V",
+    "Attribute": "Virus",
+    "EvolutionsList": [
+      "Demon",
+      "Belial Vamdemon",
+      "Venom Vamdemon"
+    ]
+  },
+  {
+    "Number": 268,
+    "Name": "Etemon",
+    "Stage": "V",
+    "Attribute": "Virus",
+    "EvolutionsList": [
+      "Pile Volcamon",
+      "King Etemon",
+      "Metal Etemon"
+    ]
+  },
+  {
+    "Number": 269,
+    "Name": "Okuwamon",
+    "Stage": "V",
+    "Attribute": "Virus",
+    "EvolutionsList": [
+      "Tyrant Kabuterimon",
+      "Herakle Kabuterimon",
+      "Gran Kuwagamon"
+    ]
+  },
+  {
+    "Number": 270,
+    "Name": "Orochimon",
+    "Stage": "V",
+    "Attribute": "Virus",
+    "EvolutionsList": [
+      "Bacchusmon",
+      "Gundramon",
+      "Minervamon"
+    ]
+  },
+  {
+    "Number": 271,
+    "Name": "Gerbemon",
+    "Stage": "V",
+    "Attribute": "Virus",
+    "EvolutionsList": [
+      "Jumbo Gamemon",
+      "Metal Etemon"
+    ]
+  },
+  {
+    "Number": 272,
+    "Name": "Gigadramon",
+    "Stage": "V",
+    "Attribute": "Virus",
+    "EvolutionsList": [
+      "Gundramon",
+      "Chaosdramon"
+    ]
+  },
+  {
+    "Number": 273,
+    "Name": "Cannonbeemon",
+    "Stage": "V",
+    "Attribute": "Virus",
+    "EvolutionsList": [
+      "Saint Galgomon",
+      "Tiger Vespamon"
+    ]
+  },
+  {
+    "Number": 274,
+    "Name": "Groundramon",
+    "Stage": "V",
+    "Attribute": "Virus",
+    "EvolutionsList": [
+      "Megidramon",
+      "Breakdramon"
+    ]
+  },
+  {
+    "Number": 275,
+    "Name": "Sharkmon",
+    "Stage": "V",
+    "Attribute": "Virus",
+    "EvolutionsList": [
+      "Neptunemon",
+      "Metal Seadramon"
+    ]
+  },
+  {
+    "Number": 276,
+    "Name": "Shawujinmon",
+    "Stage": "V",
+    "Attribute": "Virus",
+    "EvolutionsList": [
+      "Barbamon",
+      "Jumbo Gamemon",
+      "Pinochimon"
+    ]
+  },
+  {
+    "Number": 277,
+    "Name": "Jyureimon",
+    "Stage": "V",
+    "Attribute": "Virus",
+    "EvolutionsList": [
+      "Pinochimon",
+      "Rosemon",
+      "Gran Kuwagamon"
+    ]
+  },
+  {
+    "Number": 278,
+    "Name": "Skull Greymon",
+    "Stage": "V",
+    "Attribute": "Virus",
+    "EvolutionsList": [
+      "Titamon",
+      "Skull Mammon"
+    ]
+  },
+  {
+    "Number": 279,
+    "Name": "Skull Satamon",
+    "Stage": "V",
+    "Attribute": "Virus",
+    "EvolutionsList": [
+      "Barbamon",
+      "Piemon",
+      "Ebemon"
+    ]
+  },
+  {
+    "Number": 280,
+    "Name": "Skullseadramon",
+    "Stage": "V",
+    "Attribute": "Virus",
+    "EvolutionsList": [
+      "Leviamon",
+      "Metal Seadramon"
+    ]
+  },
+  {
+    "Number": 281,
+    "Name": "Dark Super Starmon",
+    "Stage": "V",
+    "Attribute": "Virus",
+    "EvolutionsList": [
+      "Beel Starmon",
+      "Titamon",
+      "Ravmon"
+    ]
+  },
+  {
+    "Number": 282,
+    "Name": "Dagomon",
+    "Stage": "V",
+    "Attribute": "Virus",
+    "EvolutionsList": [
+      "Vulcanusmon",
+      "Ebemon"
+    ]
+  },
+  {
+    "Number": 283,
+    "Name": "Tankdramon",
+    "Stage": "V",
+    "Attribute": "Virus",
+    "EvolutionsList": [
+      "Gundramon",
+      "Darkdramon"
+    ]
+  },
+  {
+    "Number": 284,
+    "Name": "Tonosama Gekomon",
+    "Stage": "V",
+    "Attribute": "Virus",
+    "EvolutionsList": [
+      "King Etemon",
+      "Bacchusmon",
+      "Pukumon"
+    ]
+  },
+  {
+    "Number": 285,
+    "Name": "Nanomon",
+    "Stage": "V",
+    "Attribute": "Virus",
+    "EvolutionsList": [
+      "Pharaohmon",
+      "Diablomon"
+    ]
+  },
+  {
+    "Number": 286,
+    "Name": "Fantomon",
+    "Stage": "V",
+    "Attribute": "Virus",
+    "EvolutionsList": [
+      "Sakuyamon",
+      "Piemon",
+      "Belphemon: Sleep Mode",
+      "Ravmon"
+    ]
+  },
+  {
+    "Number": 287,
+    "Name": "Black King Numemon",
+    "Stage": "V",
+    "Attribute": "Virus",
+    "EvolutionsList": [
+      "Platinum Numemon",
+      "Metal Etemon"
+    ]
+  },
+  {
+    "Number": 288,
+    "Name": "Blue Meramon",
+    "Stage": "V",
+    "Attribute": "Virus",
+    "EvolutionsList": [
+      "Marsmon",
+      "Pharaohmon"
+    ]
+  },
+  {
+    "Number": 289,
+    "Name": "Vademon",
+    "Stage": "V",
+    "Attribute": "Virus",
+    "EvolutionsList": [
+      "Ebemon",
+      "Avenge Kidmon"
+    ]
+  },
+  {
+    "Number": 290,
+    "Name": "Matadrmon",
+    "Stage": "V",
+    "Attribute": "Virus",
+    "EvolutionsList": [
+      "Grand Dracumon",
+      "Slash Angemon",
+      "Kuzuhamon"
+    ]
+  },
+  {
+    "Number": 291,
+    "Name": "Mummymon",
+    "Stage": "V",
+    "Attribute": "Virus",
+    "EvolutionsList": [
+      "Pharaohmon",
+      "Hi Andromon",
+      "Avenge Kidmon"
+    ]
+  },
+  {
+    "Number": 292,
+    "Name": "Mistymon",
+    "Stage": "V",
+    "Attribute": "Virus",
+    "EvolutionsList": [
+      "Chaos Dukemon",
+      "Zanbamon",
+      "Medieval Dukemon",
+      "Dynasmon"
+    ]
+  },
+  {
+    "Number": 293,
+    "Name": "Megadramon",
+    "Stage": "V",
+    "Attribute": "Virus",
+    "EvolutionsList": [
+      "Megidramon",
+      "Mugendramon"
+    ]
+  },
+  {
+    "Number": 294,
+    "Name": "Megalo Growmon",
+    "Stage": "V",
+    "Attribute": "Virus",
+    "EvolutionsList": [
+      "Megidramon",
+      "Dukemon",
+      "Chaos Dukemon",
+      "Chaosdramon"
+    ]
+  },
+  {
+    "Number": 295,
+    "Name": "Metal Tyranomon",
+    "Stage": "V",
+    "Attribute": "Virus",
+    "EvolutionsList": [
+      "Rust Tyranomon",
+      "Mugendramon",
+      "Ultimate Brachiomon"
+    ]
+  },
+  {
+    "Number": 296,
+    "Name": "Lucemon: Falldown Mode",
+    "Stage": "V",
+    "Attribute": "Virus",
+    "EvolutionsList": [
+      "Lucemon: Satan Mode"
+    ]
+  },
+  {
+    "Number": 297,
+    "Name": "Lady Devimon",
+    "Stage": "V",
+    "Attribute": "Virus",
+    "EvolutionsList": [
+      "Lilithmon",
+      "Beel Starmon",
+      "Mastemon"
+    ]
+  },
+  {
+    "Number": 298,
+    "Name": "Wisemon",
+    "Stage": "V",
+    "Attribute": "Virus",
+    "EvolutionsList": [
+      "Demon",
+      "Chaos Dukemon",
+      "Ancient Wisemon"
+    ]
+  },
+  {
+    "Number": 299,
+    "Name": "Waru Seadramon",
+    "Stage": "V",
+    "Attribute": "Virus",
+    "EvolutionsList": [
+      "Leviamon",
+      "Megidramon",
+      "Metal Seadramon"
+    ]
+  },
+  {
+    "Number": 300,
+    "Name": "Shakkoumon",
+    "Stage": "V",
+    "Attribute": "Free",
+    "EvolutionsList": [
+      "Goddramon",
+      "Junomon",
+      "Vikemon",
+      "Holydramon"
+    ]
+  },
+  {
+    "Number": 301,
+    "Name": "Silphymon",
+    "Stage": "V",
+    "Attribute": "Free",
+    "EvolutionsList": [
+      "Beel Starmon",
+      "Minervamon",
+      "Valkyrimon"
+    ]
+  },
+  {
+    "Number": 302,
+    "Name": "Dinobeemon",
+    "Stage": "V",
+    "Attribute": "Free",
+    "EvolutionsList": [
+      "Gran Kuwagamon",
+      "Tiger Vespamon"
+    ]
+  },
+  {
+    "Number": 303,
+    "Name": "Paildramon",
+    "Stage": "V",
+    "Attribute": "Free",
+    "EvolutionsList": [
+      "Dorugoramon",
+      "Imperialdramon: Dragon Mode",
+      "Darkdramon"
+    ]
+  },
+  {
+    "Number": 304,
+    "Name": "Infermon",
+    "Stage": "V",
+    "Attribute": "Unknown",
+    "EvolutionsList": [
+      "Belial Vamdemon",
+      "Diablomon",
+      "Cherubimon (Vice)"
+    ]
+  },
+  {
+    "Number": 305,
+    "Name": "Aldamon",
+    "Stage": "Fusion Hybrid",
+    "Attribute": "Variable",
+    "EvolutionsList": [
+      "Kaiser Greymon"
+    ]
+  },
+  {
+    "Number": 306,
+    "Name": "Beowolfmon",
+    "Stage": "Fusion Hybrid",
+    "Attribute": "Variable",
+    "EvolutionsList": [
+      "Magna Garurumon"
+    ]
+  },
+  {
+    "Number": 307,
+    "Name": "Apollomon",
+    "Stage": "VI",
+    "Attribute": "Vaccine",
+    "EvolutionsList": [
+      "Grace Novamon"
+    ]
+  },
+  {
+    "Number": 308,
+    "Name": "Alphamon",
+    "Stage": "VI",
+    "Attribute": "Vaccine",
+    "EvolutionsList": [
+      "Alphamon: Ouryuken"
+    ]
+  },
+  {
+    "Number": 309,
+    "Name": "Ulforce V-Dramon",
+    "Stage": "VI",
+    "Attribute": "Vaccine",
+    "EvolutionsList": []
+  },
+  {
+    "Number": 310,
+    "Name": "Valdurmon",
+    "Stage": "VI",
+    "Attribute": "Vaccine",
+    "EvolutionsList": [
+      "Chaosmon: Valdur Arm"
+    ]
+  },
+  {
+    "Number": 311,
+    "Name": "Venusmon",
+    "Stage": "VI",
+    "Attribute": "Vaccine",
+    "EvolutionsList": []
+  },
+  {
+    "Number": 312,
+    "Name": "War Greymon",
+    "Stage": "VI",
+    "Attribute": "Vaccine",
+    "EvolutionsList": [
+      "Omegamon"
+    ]
+  },
+  {
+    "Number": 313,
+    "Name": "Ouryumon",
+    "Stage": "VI",
+    "Attribute": "Vaccine",
+    "EvolutionsList": [
+      "Alphamon: Ouryuken"
+    ]
+  },
+  {
+    "Number": 314,
+    "Name": "Ofanimon",
+    "Stage": "VI",
+    "Attribute": "Vaccine",
+    "EvolutionsList": []
+  },
+  {
+    "Number": 315,
+    "Name": "Clavis Angemon",
+    "Stage": "VI",
+    "Attribute": "Vaccine",
+    "EvolutionsList": []
+  },
+  {
+    "Number": 316,
+    "Name": "Craniummon",
+    "Stage": "VI",
+    "Attribute": "Vaccine",
+    "EvolutionsList": [
+      "Enbarrmon Craniummon"
+    ]
+  },
+  {
+    "Number": 317,
+    "Name": "Crossmon",
+    "Stage": "VI",
+    "Attribute": "Vaccine",
+    "EvolutionsList": []
+  },
+  {
+    "Number": 318,
+    "Name": "Chronomon",
+    "Stage": "VI",
+    "Attribute": "Vaccine",
+    "EvolutionsList": []
+  },
+  {
+    "Number": 319,
+    "Name": "Cherubimon (Vice)",
+    "Stage": "VI",
+    "Attribute": "Vaccine",
+    "EvolutionsList": []
+  },
+  {
+    "Number": 320,
+    "Name": "Cherubimon (Virtue)",
+    "Stage": "VI",
+    "Attribute": "Vaccine",
+    "EvolutionsList": []
+  },
+  {
+    "Number": 321,
+    "Name": "Goddramon",
+    "Stage": "VI",
+    "Attribute": "Vaccine",
+    "EvolutionsList": []
+  },
+  {
+    "Number": 322,
+    "Name": "Shine Greymon",
+    "Stage": "VI",
+    "Attribute": "Vaccine",
+    "EvolutionsList": [
+      "Shine Greymon: Burst Mode"
+    ]
+  },
+  {
+    "Number": 323,
+    "Name": "Justimon",
+    "Stage": "VI",
+    "Attribute": "Vaccine",
+    "EvolutionsList": []
+  },
+  {
+    "Number": 324,
+    "Name": "Skull Mammon",
+    "Stage": "VI",
+    "Attribute": "Vaccine",
+    "EvolutionsList": []
+  },
+  {
+    "Number": 325,
+    "Name": "Slash Angemon",
+    "Stage": "VI",
+    "Attribute": "Vaccine",
+    "EvolutionsList": []
+  },
+  {
+    "Number": 326,
+    "Name": "Sleipmon",
+    "Stage": "VI",
+    "Attribute": "Vaccine",
+    "EvolutionsList": []
+  },
+  {
+    "Number": 327,
+    "Name": "Slayerdramon",
+    "Stage": "VI",
+    "Attribute": "Vaccine",
+    "EvolutionsList": [
+      "Examon"
+    ]
+  },
+  {
+    "Number": 328,
+    "Name": "Seraphimon",
+    "Stage": "VI",
+    "Attribute": "Vaccine",
+    "EvolutionsList": []
+  },
+  {
+    "Number": 329,
+    "Name": "Saint Galgomon",
+    "Stage": "VI",
+    "Attribute": "Vaccine",
+    "EvolutionsList": []
+  },
+  {
+    "Number": 330,
+    "Name": "Durandamon",
+    "Stage": "VI",
+    "Attribute": "Vaccine",
+    "EvolutionsList": []
+  },
+  {
+    "Number": 331,
+    "Name": "Neptunemon",
+    "Stage": "VI",
+    "Attribute": "Vaccine",
+    "EvolutionsList": []
+  },
+  {
+    "Number": 332,
+    "Name": "Hi Andromon",
+    "Stage": "VI",
+    "Attribute": "Vaccine",
+    "EvolutionsList": []
+  },
+  {
+    "Number": 333,
+    "Name": "Bancho Leomon",
+    "Stage": "VI",
+    "Attribute": "Vaccine",
+    "EvolutionsList": [
+      "Chaosmon: Valdur Arm",
+      "Chaosmon"
+    ]
+  },
+  {
+    "Number": 334,
+    "Name": "Herakle Kabuterimon",
+    "Stage": "VI",
+    "Attribute": "Vaccine",
+    "EvolutionsList": []
+  },
+  {
+    "Number": 335,
+    "Name": "Hououmon",
+    "Stage": "VI",
+    "Attribute": "Vaccine",
+    "EvolutionsList": []
+  },
+  {
+    "Number": 336,
+    "Name": "Holydramon",
+    "Stage": "VI",
+    "Attribute": "Vaccine",
+    "EvolutionsList": []
+  },
+  {
+    "Number": 337,
+    "Name": "Mastemon",
+    "Stage": "VI",
+    "Attribute": "Vaccine",
+    "EvolutionsList": []
+  },
+  {
+    "Number": 338,
+    "Name": "Marin Angemon",
+    "Stage": "VI",
+    "Attribute": "Vaccine",
+    "EvolutionsList": []
+  },
+  {
+    "Number": 339,
+    "Name": "Marsmon",
+    "Stage": "VI",
+    "Attribute": "Vaccine",
+    "EvolutionsList": []
+  },
+  {
+    "Number": 340,
+    "Name": "Jupitermon",
+    "Stage": "VI",
+    "Attribute": "Vaccine",
+    "EvolutionsList": [
+      "Jupitermon: Wrath Mode"
+    ]
+  },
+  {
+    "Number": 341,
+    "Name": "Ravmon",
+    "Stage": "VI",
+    "Attribute": "Vaccine",
+    "EvolutionsList": [
+      "Ravmon: Burst Mode"
+    ]
+  },
+  {
+    "Number": 342,
+    "Name": "Ultimate Brachiomon",
+    "Stage": "VI",
+    "Attribute": "Data",
+    "EvolutionsList": []
+  },
+  {
+    "Number": 343,
+    "Name": "Vulcanusmon",
+    "Stage": "VI",
+    "Attribute": "Data",
+    "EvolutionsList": []
+  },
+  {
+    "Number": 344,
+    "Name": "Gankoomon",
+    "Stage": "VI",
+    "Attribute": "Data",
+    "EvolutionsList": []
+  },
+  {
+    "Number": 345,
+    "Name": "Kuzuhamon",
+    "Stage": "VI",
+    "Attribute": "Data",
+    "EvolutionsList": []
+  },
+  {
+    "Number": 346,
+    "Name": "Grand Locomon",
+    "Stage": "VI",
+    "Attribute": "Data",
+    "EvolutionsList": []
+  },
+  {
+    "Number": 347,
+    "Name": "Griffomon",
+    "Stage": "VI",
+    "Attribute": "Data",
+    "EvolutionsList": []
+  },
+  {
+    "Number": 348,
+    "Name": "Ceresmon",
+    "Stage": "VI",
+    "Attribute": "Data",
+    "EvolutionsList": [
+      "Ceresmon Medium"
+    ]
+  },
+  {
+    "Number": 349,
+    "Name": "Ceresmon Medium",
+    "Stage": "VI",
+    "Attribute": "Data",
+    "EvolutionsList": [
+      "Ceresmon"
+    ]
+  },
+  {
+    "Number": 350,
+    "Name": "Saber Leomon",
+    "Stage": "VI",
+    "Attribute": "Data",
+    "EvolutionsList": []
+  },
+  {
+    "Number": 351,
+    "Name": "Sakuyamon",
+    "Stage": "VI",
+    "Attribute": "Data",
+    "EvolutionsList": []
+  },
+  {
+    "Number": 352,
+    "Name": "Jesmon",
+    "Stage": "VI",
+    "Attribute": "Data",
+    "EvolutionsList": []
+  },
+  {
+    "Number": 353,
+    "Name": "Jumbo Gamemon",
+    "Stage": "VI",
+    "Attribute": "Data",
+    "EvolutionsList": []
+  },
+  {
+    "Number": 354,
+    "Name": "Dianamon",
+    "Stage": "VI",
+    "Attribute": "Data",
+    "EvolutionsList": [
+      "Grace Novamon"
+    ]
+  },
+  {
+    "Number": 355,
+    "Name": "Dynasmon",
+    "Stage": "VI",
+    "Attribute": "Data",
+    "EvolutionsList": []
+  },
+  {
+    "Number": 356,
+    "Name": "Duftmon",
+    "Stage": "VI",
+    "Attribute": "Data",
+    "EvolutionsList": [
+      "Duftmon: Leopard Mode"
+    ]
+  },
+  {
+    "Number": 357,
+    "Name": "Duftmon: Leopard Mode",
+    "Stage": "VI",
+    "Attribute": "Data",
+    "EvolutionsList": [
+      "Duftmon"
+    ]
+  },
+  {
+    "Number": 358,
+    "Name": "Dorugoramon",
+    "Stage": "VI",
+    "Attribute": "Data",
+    "EvolutionsList": []
+  },
+  {
+    "Number": 359,
+    "Name": "Pile Volcamon",
+    "Stage": "VI",
+    "Attribute": "Data",
+    "EvolutionsList": []
+  },
+  {
+    "Number": 360,
+    "Name": "Prince Mamemon",
+    "Stage": "VI",
+    "Attribute": "Data",
+    "EvolutionsList": []
+  },
+  {
+    "Number": 361,
+    "Name": "Plesiomon",
+    "Stage": "VI",
+    "Attribute": "Data",
+    "EvolutionsList": []
+  },
+  {
+    "Number": 362,
+    "Name": "Boltmon",
+    "Stage": "VI",
+    "Attribute": "Data",
+    "EvolutionsList": []
+  },
+  {
+    "Number": 363,
+    "Name": "Mirage Gaogamon",
+    "Stage": "VI",
+    "Attribute": "Data",
+    "EvolutionsList": [
+      "Mirage Gaogamon: Burst Mode"
+    ]
+  },
+  {
+    "Number": 364,
+    "Name": "Metal Garurumon",
+    "Stage": "VI",
+    "Attribute": "Data",
+    "EvolutionsList": [
+      "Omegamon"
+    ]
+  },
+  {
+    "Number": 365,
+    "Name": "Metal Seadramon",
+    "Stage": "VI",
+    "Attribute": "Data",
+    "EvolutionsList": []
+  },
+  {
+    "Number": 366,
+    "Name": "Medieval Dukemon",
+    "Stage": "VI",
+    "Attribute": "Data",
+    "EvolutionsList": []
+  },
+  {
+    "Number": 367,
+    "Name": "Rosemon",
+    "Stage": "VI",
+    "Attribute": "Data",
+    "EvolutionsList": [
+      "Rosemon: Burst Mode"
+    ]
+  },
+  {
+    "Number": 368,
+    "Name": "Lotusmon",
+    "Stage": "VI",
+    "Attribute": "Data",
+    "EvolutionsList": []
+  },
+  {
+    "Number": 369,
+    "Name": "Avenge Kidmon",
+    "Stage": "VI",
+    "Attribute": "Virus",
+    "EvolutionsList": []
+  },
+  {
+    "Number": 370,
+    "Name": "Ebemon",
+    "Stage": "VI",
+    "Attribute": "Virus",
+    "EvolutionsList": []
+  },
+  {
+    "Number": 371,
+    "Name": "Venom Vamdemon",
+    "Stage": "VI",
+    "Attribute": "Virus",
+    "EvolutionsList": []
+  },
+  {
+    "Number": 372,
+    "Name": "Ancient Wisemon",
+    "Stage": "VI",
+    "Attribute": "Virus",
+    "EvolutionsList": []
+  },
+  {
+    "Number": 373,
+    "Name": "Gaioumon",
+    "Stage": "VI",
+    "Attribute": "Virus",
+    "EvolutionsList": []
+  },
+  {
+    "Number": 374,
+    "Name": "Chaos Dukemon",
+    "Stage": "VI",
+    "Attribute": "Virus",
+    "EvolutionsList": []
+  },
+  {
+    "Number": 375,
+    "Name": "Chaosdramon",
+    "Stage": "VI",
+    "Attribute": "Virus",
+    "EvolutionsList": []
+  },
+  {
+    "Number": 376,
+    "Name": "Callismon",
+    "Stage": "VI",
+    "Attribute": "Virus",
+    "EvolutionsList": []
+  },
+  {
+    "Number": 377,
+    "Name": "Gundramon",
+    "Stage": "VI",
+    "Attribute": "Virus",
+    "EvolutionsList": []
+  },
+  {
+    "Number": 378,
+    "Name": "King Etemon",
+    "Stage": "VI",
+    "Attribute": "Virus",
+    "EvolutionsList": []
+  },
+  {
+    "Number": 379,
+    "Name": "Grand Dracumon",
+    "Stage": "VI",
+    "Attribute": "Virus",
+    "EvolutionsList": []
+  },
+  {
+    "Number": 380,
+    "Name": "Chronomon Destroy",
+    "Stage": "VI",
+    "Attribute": "Virus",
+    "EvolutionsList": []
+  },
+  {
+    "Number": 381,
+    "Name": "Zanbamon",
+    "Stage": "VI",
+    "Attribute": "Virus",
+    "EvolutionsList": []
+  },
+  {
+    "Number": 382,
+    "Name": "Undead Plutomon",
+    "Stage": "VI",
+    "Attribute": "Virus",
+    "EvolutionsList": []
+  },
+  {
+    "Number": 383,
+    "Name": "Darkdramon",
+    "Stage": "VI",
+    "Attribute": "Virus",
+    "EvolutionsList": [
+      "Chaosmon"
+    ]
+  },
+  {
+    "Number": 384,
+    "Name": "Tiger Vespamon",
+    "Stage": "VI",
+    "Attribute": "Virus",
+    "EvolutionsList": []
+  },
+  {
+    "Number": 385,
+    "Name": "Titamon",
+    "Stage": "VI",
+    "Attribute": "Virus",
+    "EvolutionsList": [
+      "Skull Baluchimon Titamon"
+    ]
+  },
+  {
+    "Number": 386,
+    "Name": "Tyrant Kabuterimon",
+    "Stage": "VI",
+    "Attribute": "Virus",
+    "EvolutionsList": []
+  },
+  {
+    "Number": 387,
+    "Name": "Demon",
+    "Stage": "VI",
+    "Attribute": "Virus",
+    "EvolutionsList": []
+  },
+  {
+    "Number": 388,
+    "Name": "Dukemon",
+    "Stage": "VI",
+    "Attribute": "Virus",
+    "EvolutionsList": [
+      "Dukemon: Crimson Mode"
+    ]
+  },
+  {
+    "Number": 389,
+    "Name": "Bacchusmon",
+    "Stage": "VI",
+    "Attribute": "Virus",
+    "EvolutionsList": [
+      "Bacchusmon Drunk"
+    ]
+  },
+  {
+    "Number": 390,
+    "Name": "Bacchusmon Drunk",
+    "Stage": "VI",
+    "Attribute": "Virus",
+    "EvolutionsList": [
+      "Bacchusmon"
+    ]
+  },
+  {
+    "Number": 391,
+    "Name": "Barbamon",
+    "Stage": "VI",
+    "Attribute": "Virus",
+    "EvolutionsList": []
+  },
+  {
+    "Number": 392,
+    "Name": "Piemon",
+    "Stage": "VI",
+    "Attribute": "Virus",
+    "EvolutionsList": [
+      "Apocalymon"
+    ]
+  },
+  {
+    "Number": 393,
+    "Name": "Pinochimon",
+    "Stage": "VI",
+    "Attribute": "Virus",
+    "EvolutionsList": []
+  },
+  {
+    "Number": 394,
+    "Name": "Pharaohmon",
+    "Stage": "VI",
+    "Attribute": "Virus",
+    "EvolutionsList": []
+  },
+  {
+    "Number": 395,
+    "Name": "Pukumon",
+    "Stage": "VI",
+    "Attribute": "Virus",
+    "EvolutionsList": []
+  },
+  {
+    "Number": 396,
+    "Name": "Platinum Numemon",
+    "Stage": "VI",
+    "Attribute": "Virus",
+    "EvolutionsList": []
+  },
+  {
+    "Number": 397,
+    "Name": "Plutomon",
+    "Stage": "VI",
+    "Attribute": "Virus",
+    "EvolutionsList": [
+      "Undead Plutomon"
+    ]
+  },
+  {
+    "Number": 398,
+    "Name": "Breakdramon",
+    "Stage": "VI",
+    "Attribute": "Virus",
+    "EvolutionsList": [
+      "Examon"
+    ]
+  },
+  {
+    "Number": 399,
+    "Name": "Belial Vamdemon",
+    "Stage": "VI",
+    "Attribute": "Virus",
+    "EvolutionsList": []
+  },
+  {
+    "Number": 400,
+    "Name": "Beel Starmon",
+    "Stage": "VI",
+    "Attribute": "Virus",
+    "EvolutionsList": []
+  },
+  {
+    "Number": 401,
+    "Name": "Beelzebumon",
+    "Stage": "VI",
+    "Attribute": "Virus",
+    "EvolutionsList": [
+      "Beelzebumon: Blast Mode"
+    ]
+  },
+  {
+    "Number": 402,
+    "Name": "Belphemon: Sleep Mode",
+    "Stage": "VI",
+    "Attribute": "Virus",
+    "EvolutionsList": [
+      "Belphemon: Rage Mode"
+    ]
+  },
+  {
+    "Number": 403,
+    "Name": "Magna Kidmon",
+    "Stage": "VI",
+    "Attribute": "Virus",
+    "EvolutionsList": []
+  },
+  {
+    "Number": 404,
+    "Name": "Minervamon",
+    "Stage": "VI",
+    "Attribute": "Virus",
+    "EvolutionsList": [
+      "Mervamon"
+    ]
+  },
+  {
+    "Number": 405,
+    "Name": "Millenniumon",
+    "Stage": "VI",
+    "Attribute": "Virus",
+    "EvolutionsList": []
+  },
+  {
+    "Number": 406,
+    "Name": "Mugendramon",
+    "Stage": "VI",
+    "Attribute": "Virus",
+    "EvolutionsList": [
+      "Millenniumon"
+    ]
+  },
+  {
+    "Number": 407,
+    "Name": "Megidramon",
+    "Stage": "VI",
+    "Attribute": "Virus",
+    "EvolutionsList": []
+  },
+  {
+    "Number": 408,
+    "Name": "Metal Etemon",
+    "Stage": "VI",
+    "Attribute": "Virus",
+    "EvolutionsList": []
+  },
+  {
+    "Number": 409,
+    "Name": "Mercurymon",
+    "Stage": "VI",
+    "Attribute": "Virus",
+    "EvolutionsList": []
+  },
+  {
+    "Number": 410,
+    "Name": "Junomon",
+    "Stage": "VI",
+    "Attribute": "Virus",
+    "EvolutionsList": [
+      "Junomon: Hysteric Mode"
+    ]
+  },
+  {
+    "Number": 411,
+    "Name": "Junomon: Hysteric Mode",
+    "Stage": "VI",
+    "Attribute": "Virus",
+    "EvolutionsList": [
+      "Junomon"
+    ]
+  },
+  {
+    "Number": 412,
+    "Name": "Rust Tyranomon",
+    "Stage": "VI",
+    "Attribute": "Virus",
+    "EvolutionsList": []
+  },
+  {
+    "Number": 413,
+    "Name": "Leviamon",
+    "Stage": "VI",
+    "Attribute": "Virus",
+    "EvolutionsList": []
+  },
+  {
+    "Number": 414,
+    "Name": "Lilithmon",
+    "Stage": "VI",
+    "Attribute": "Virus",
+    "EvolutionsList": []
+  },
+  {
+    "Number": 415,
+    "Name": "Lord Knightmon",
+    "Stage": "VI",
+    "Attribute": "Virus",
+    "EvolutionsList": []
+  },
+  {
+    "Number": 416,
+    "Name": "Imperialdramon: Dragon Mode",
+    "Stage": "VI",
+    "Attribute": "Free",
+    "EvolutionsList": [
+      "Imperialdramon: Fighter Mode",
+      "Imperialdramon: Paladin Mode"
+    ]
+  },
+  {
+    "Number": 417,
+    "Name": "Imperialdramon: Fighter Mode",
+    "Stage": "VI",
+    "Attribute": "Free",
+    "EvolutionsList": [
+      "Imperialdramon: Paladin Mode",
+      "Imperialdramon: Dragon Mode"
+    ]
+  },
+  {
+    "Number": 418,
+    "Name": "Vikemon",
+    "Stage": "VI",
+    "Attribute": "Free",
+    "EvolutionsList": []
+  },
+  {
+    "Number": 419,
+    "Name": "Valkyrimon",
+    "Stage": "VI",
+    "Attribute": "Free",
+    "EvolutionsList": []
+  },
+  {
+    "Number": 420,
+    "Name": "Gran Kuwagamon",
+    "Stage": "VI",
+    "Attribute": "Free",
+    "EvolutionsList": []
+  },
+  {
+    "Number": 421,
+    "Name": "Diablomon",
+    "Stage": "VI",
+    "Attribute": "Unknown",
+    "EvolutionsList": [
+      "Armagemon"
+    ]
+  },
+  {
+    "Number": 422,
+    "Name": "Rapidmon Armor",
+    "Stage": "Golden Armor",
+    "Attribute": "Vaccine",
+    "EvolutionsList": []
+  },
+  {
+    "Number": 423,
+    "Name": "Magnamon",
+    "Stage": "Golden Armor",
+    "Attribute": "Free",
+    "EvolutionsList": []
+  },
+  {
+    "Number": 424,
+    "Name": "Kaiser Greymon",
+    "Stage": "Transcendent Hybrid",
+    "Attribute": "Variable",
+    "EvolutionsList": [
+      "Susanoomon"
+    ]
+  },
+  {
+    "Number": 425,
+    "Name": "Magna Garurumon",
+    "Stage": "Transcendent Hybrid",
+    "Attribute": "Variable",
+    "EvolutionsList": [
+      "Susanoomon",
+      "Magna Garurumon: Separation"
+    ]
+  },
+  {
+    "Number": 426,
+    "Name": "Magna Garurumon: Separation",
+    "Stage": "Transcendent Hybrid",
+    "Attribute": "Variable",
+    "EvolutionsList": [
+      "Magna Garurumon"
+    ]
+  },
+  {
+    "Number": 427,
+    "Name": "Alphamon: Ouryuken",
+    "Stage": "VI+",
+    "Attribute": "Vaccine",
+    "EvolutionsList": []
+  },
+  {
+    "Number": 428,
+    "Name": "Enbarrmon Craniummon",
+    "Stage": "VI+",
+    "Attribute": "Vaccine",
+    "EvolutionsList": []
+  },
+  {
+    "Number": 429,
+    "Name": "Imperialdramon: Paladin Mode",
+    "Stage": "VI+",
+    "Attribute": "Vaccine",
+    "EvolutionsList": []
+  },
+  {
+    "Number": 430,
+    "Name": "Omegamon",
+    "Stage": "VI+",
+    "Attribute": "Vaccine",
+    "EvolutionsList": [
+      "Omegamon Zwart"
+    ]
+  },
+  {
+    "Number": 431,
+    "Name": "Omegamon Zwart",
+    "Stage": "VI+",
+    "Attribute": "Vaccine",
+    "EvolutionsList": [
+      "Omegamon"
+    ]
+  },
+  {
+    "Number": 432,
+    "Name": "Chaosmon",
+    "Stage": "VI+",
+    "Attribute": "Vaccine",
+    "EvolutionsList": []
+  },
+  {
+    "Number": 433,
+    "Name": "Chaosmon: Valdur Arm",
+    "Stage": "VI+",
+    "Attribute": "Vaccine",
+    "EvolutionsList": []
+  },
+  {
+    "Number": 434,
+    "Name": "Grace Novamon",
+    "Stage": "VI+",
+    "Attribute": "Vaccine",
+    "EvolutionsList": []
+  },
+  {
+    "Number": 435,
+    "Name": "Shine Greymon: Burst Mode",
+    "Stage": "VI+",
+    "Attribute": "Vaccine",
+    "EvolutionsList": []
+  },
+  {
+    "Number": 436,
+    "Name": "Susanoomon",
+    "Stage": "VI+",
+    "Attribute": "Vaccine",
+    "EvolutionsList": []
+  },
+  {
+    "Number": 437,
+    "Name": "Jupitermon: Wrath Mode",
+    "Stage": "VI+",
+    "Attribute": "Vaccine",
+    "EvolutionsList": []
+  },
+  {
+    "Number": 438,
+    "Name": "Ravmon: Burst Mode",
+    "Stage": "VI+",
+    "Attribute": "Vaccine",
+    "EvolutionsList": []
+  },
+  {
+    "Number": 439,
+    "Name": "Examon",
+    "Stage": "VI+",
+    "Attribute": "Data",
+    "EvolutionsList": []
+  },
+  {
+    "Number": 440,
+    "Name": "Mirage Gaogamon: Burst Mode",
+    "Stage": "VI+",
+    "Attribute": "Data",
+    "EvolutionsList": []
+  },
+  {
+    "Number": 441,
+    "Name": "Rosemon: Burst Mode",
+    "Stage": "VI+",
+    "Attribute": "Data",
+    "EvolutionsList": []
+  },
+  {
+    "Number": 442,
+    "Name": "Skull Baluchimon Titamon",
+    "Stage": "VI+",
+    "Attribute": "Virus",
+    "EvolutionsList": []
+  },
+  {
+    "Number": 443,
+    "Name": "Dukemon: Crimson Mode",
+    "Stage": "VI+",
+    "Attribute": "Virus",
+    "EvolutionsList": []
+  },
+  {
+    "Number": 444,
+    "Name": "Beelzebumon: Blast Mode",
+    "Stage": "VI+",
+    "Attribute": "Virus",
+    "EvolutionsList": []
+  },
+  {
+    "Number": 445,
+    "Name": "Belphemon: Rage Mode",
+    "Stage": "VI+",
+    "Attribute": "Virus",
+    "EvolutionsList": []
+  },
+  {
+    "Number": 446,
+    "Name": "Mervamon",
+    "Stage": "VI+",
+    "Attribute": "Virus",
+    "EvolutionsList": []
+  },
+  {
+    "Number": 447,
+    "Name": "Lucemon: Satan Mode",
+    "Stage": "VI+",
+    "Attribute": "Virus",
+    "EvolutionsList": []
+  },
+  {
+    "Number": 448,
+    "Name": "Armagemon",
+    "Stage": "VI+",
+    "Attribute": "Unknown",
+    "EvolutionsList": []
+  },
+  {
+    "Number": 449,
+    "Name": "Agumon -Yuki No Kizuna-",
+    "Stage": "VI+",
+    "Attribute": "Unknown",
+    "EvolutionsList": []
+  },
+  {
+    "Number": 450,
+    "Name": "Apocalymon",
+    "Stage": "VI+",
+    "Attribute": "Unknown",
+    "EvolutionsList": []
+  },
+  {
+    "Number": 451,
+    "Name": "Gabumon -Yujo No Kizuna-",
+    "Stage": "VI+",
+    "Attribute": "Unknown",
+    "EvolutionsList": []
+  }
+]
