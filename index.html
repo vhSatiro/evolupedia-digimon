@@ -35,20 +35,43 @@
             <div id="history-container" class="history-grid">
                 </div>
         </div>
-
+        
         <hr class="my-4">
         <div>
             <h5 class="mb-3">Favoritos</h5>
             <div class="favorites-wrapper">
                 <button id="scroll-left-btn" class="scroll-btn left" title="Rolar para Esquerda">‹</button>
                 <div id="favorites-container" class="favorites-grid">
-                    </div>
+                </div>
                 <button id="scroll-right-btn" class="scroll-btn right" title="Rolar para Direita">›</button>
             </div>
         </div>
 
         <div id="resultado" class="mt-4 p-3 border rounded">
             <p class="text-muted text-center">Digite o nome de um Digimon para começar a busca.</p>
+        </div>
+
+        <div id="digimon-list-section" class="mt-5">
+            <hr>
+            <h3 class="mb-4 text-center">Enciclopédia Digimon</h3>
+
+            <div class="row g-3 mb-4 justify-content-center">
+                <div class="col-md-4">
+                    <label for="attribute-filter" class="form-label">Filtrar por Atributo:</label>
+                    <select id="attribute-filter" class="form-select"></select>
+                </div>
+                <div class="col-md-4">
+                    <label for="stage-filter" class="form-label">Filtrar por Estágio:</label>
+                    <select id="stage-filter" class="form-select"></select>
+                </div>
+            </div>
+             <p id="filter-results-count" class="text-center text-muted small mb-3"></p>
+
+            <div id="digimon-list-container" class="digimon-list-grid">
+                </div>
+
+            <nav id="pagination-container" class="mt-4 d-flex justify-content-center">
+                </nav>
         </div>
     </div>
   </div>

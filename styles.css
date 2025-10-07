@@ -261,7 +261,7 @@ div.awesomplete > ul > li[aria-selected="true"] {
     border-color: #dc3545;
 }
 
-/* --- NOVOS ESTILOS PARA SEÇÃO DE FAVORITOS --- */
+/* --- ESTILOS PARA SEÇÃO DE FAVORITOS --- */
 .favorites-wrapper {
     position: relative;
     padding: 0 25px;
@@ -363,4 +363,52 @@ div.awesomplete > ul > li[aria-selected="true"] {
 .scroll-btn:disabled {
     opacity: 0.4;
     cursor: not-allowed;
+}
+
+/* --- NOVOS ESTILOS PARA LISTAGEM GERAL E PAGINAÇÃO --- */
+.digimon-list-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+    gap: 20px;
+}
+.digimon-list-card {
+    border: 1px solid var(--digi-border-light);
+    border-radius: 0.375rem;
+    padding: 10px;
+    text-align: center;
+    background-color: var(--digi-card-bg);
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+.digimon-list-card:hover {
+    transform: translateY(-5px);
+    border-color: var(--digi-blue);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+.digimon-list-card img {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+}
+.digimon-list-card .digimon-name {
+    font-weight: 600;
+    font-size: 0.9rem;
+    margin-top: 8px;
+    margin-bottom: 4px;
+    color: var(--digi-text-dark);
+}
+.digimon-list-card .digimon-stage {
+    font-size: 0.75rem;
+    color: #6c757d;
+    font-weight: 500;
+}
+.pagination .page-item .page-link {
+    cursor: pointer;
+}
+.pagination .page-item.active .page-link {
+    background-color: var(--digi-blue);
+    border-color: var(--digi-blue);
+}
+.pagination .page-item.disabled .page-link {
+    color: #6c757d;
 }
