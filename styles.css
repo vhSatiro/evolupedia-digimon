@@ -26,7 +26,6 @@ body.dark-mode {
     --digi-border-light: #444446;
     --digi-text-dark: #f2f2f7;
     --card-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.4);
-    /* CORREÇÃO: Cores de atributos claras para o modo escuro */
     --attr-free: #b0b0b0;
     --attr-none: #b0b0b0;
 }
@@ -41,8 +40,7 @@ body {
   padding: 0;
   transition: background-color 0.3s, color 0.3s;
 }
-/* CORREÇÃO: Garante que títulos e hr se adaptem */
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6, .form-label {
     color: var(--digi-text-dark);
 }
 hr {
@@ -180,23 +178,46 @@ body.dark-mode #resultado .card-header .btn-light:hover {
     padding: 2px;
 }
 
-/* --- Cards de Evolução, Histórico e Favoritos --- */
-.evolutions-grid, .digimon-list-grid {
+/* --- Cards de Evolução --- */
+.evolutions-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(110px, 1fr));
     gap: 15px;
+    margin-top: 10px;
 }
-.evolution-card, .history-card, .favorite-card, .digimon-list-card {
-    background-color: var(--digi-card-bg);
+.evolution-card {
     border: 1px solid var(--digi-border-light);
+    background-color: var(--digi-card-bg);
+    cursor: pointer;
     transition: all 0.2s ease-in-out;
 }
-.evolution-card:hover, .history-card:hover, .favorite-card:hover, .digimon-list-card:hover {
+.evolution-card:hover {
     transform: translateY(-5px);
     border-color: var(--digi-blue);
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
-.evolution-attribute { font-size: 0.75rem; font-weight: 600; text-transform: uppercase; margin-top: 4px; }
+.evolution-card img {
+    width: 70px;
+    height: 70px;
+    object-fit: contain;
+    margin-bottom: 8px;
+    background-color: transparent;
+    border-radius: 5px;
+    border: none;
+    padding: 0;
+}
+.evolution-card .card-title {
+    color: var(--digi-text-dark);
+    font-weight: 600;
+    font-size: 0.85rem;
+}
+.evolution-attribute {
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-top: 4px;
+    margin-bottom: 0;
+}
 .attr-virus { color: var(--attr-virus); }
 .attr-vaccine { color: var(--attr-vaccine); }
 .attr-data { color: var(--attr-data); }
@@ -215,12 +236,97 @@ div.awesomplete > ul > li[aria-selected="true"] {
     color: white;
 }
 
-/* --- Histórico, Favoritos e Listagem Específicos --- */
-.history-grid, .favorites-grid { display: flex; gap: 10px; min-height: 60px; }
-.history-grid { flex-wrap: wrap; }
-.favorites-grid { overflow-x: auto; scroll-behavior: smooth; scrollbar-width: none; }
-.favorites-grid::-webkit-scrollbar { display: none; }
-/* ... (estilos dos botões de deletar, se necessário) ... */
+/* --- Estilos para o Histórico Recente --- */
+.history-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    min-height: 60px;
+}
+.history-card {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px;
+    background-color: var(--digi-card-bg);
+    border: 1px solid var(--digi-border-light);
+    border-radius: 0.375rem;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+.history-card:hover {
+    border-color: var(--digi-blue);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+}
+.history-card img {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+    border-radius: 5px;
+    background-color: #f8f9fa;
+}
+.history-card span {
+    font-weight: 600;
+    font-size: 0.9rem;
+    color: var(--digi-text-dark);
+}
+
+/* --- ESTILOS PARA SEÇÃO DE FAVORITOS --- */
+.favorites-wrapper {
+    position: relative;
+    padding: 0 25px;
+}
+.favorites-grid {
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+    overflow-x: auto;
+    padding: 5px 0 15px 0;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+.favorites-grid::-webkit-scrollbar {
+    display: none;
+}
+.favorite-card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 95px;
+    flex-shrink: 0;
+    padding: 10px;
+    background-color: var(--digi-card-bg);
+    border: 1px solid var(--digi-border-light);
+    border-radius: 0.375rem;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+.favorite-card:hover {
+    border-color: var(--digi-blue);
+    transform: translateY(-3px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.07);
+}
+.favorite-card img {
+    width: 55px;
+    height: 55px;
+    object-fit: contain;
+    border-radius: 5px;
+}
+.favorite-card span {
+    font-weight: 600;
+    font-size: 0.8rem;
+    margin-top: 5px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 100%;
+    color: var(--digi-text-dark);
+}
 .scroll-btn {
     position: absolute;
     top: 50%;
@@ -237,26 +343,55 @@ div.awesomplete > ul > li[aria-selected="true"] {
     font-weight: bold;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
+.scroll-btn.left { left: 0; }
+.scroll-btn.right { right: 0; }
+.scroll-btn:hover { background-color: #f1f1f1; }
 body.dark-mode .scroll-btn:hover { background-color: #4a4a4c; }
-.digimon-list-grid { grid-template-columns: repeat(auto-fill, minmax(130px, 1fr)); gap: 20px; }
-.digimon-list-card { cursor: pointer; border-radius: 0.375rem; padding: 10px; text-align: center; }
-.digimon-list-card img { width: 80px; height: 80px; object-fit: contain; }
-.digimon-list-card .digimon-name, .history-card span, .favorite-card span { 
+.scroll-btn:disabled {
+    opacity: 0.4;
+    cursor: not-allowed;
+}
+
+/* --- ESTILOS PARA LISTAGEM GERAL E PAGINAÇÃO --- */
+.digimon-list-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+    gap: 20px;
+}
+.digimon-list-card {
+    border: 1px solid var(--digi-border-light);
+    border-radius: 0.375rem;
+    padding: 10px;
+    text-align: center;
+    background-color: var(--digi-card-bg);
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+.digimon-list-card:hover {
+    transform: translateY(-5px);
+    border-color: var(--digi-blue);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+.digimon-list-card img {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+}
+.digimon-list-card .digimon-name {
+    font-weight: 600;
+    font-size: 0.9rem;
+    margin-top: 8px;
+    margin-bottom: 4px;
     color: var(--digi-text-dark);
 }
-.digimon-list-card .digimon-stage { 
-    font-size: 0.75rem; 
+.digimon-list-card .digimon-stage {
+    font-size: 0.75rem;
     font-weight: 500;
     color: #6c757d;
 }
 body.dark-mode .digimon-list-card .digimon-stage {
     color: #aaa;
 }
-body.dark-mode .text-muted {
-    color: #98989d !important;
-}
-
-/* --- Paginação --- */
 .pagination .page-link {
     cursor: pointer;
     background-color: var(--digi-card-bg);
@@ -274,6 +409,9 @@ body.dark-mode .text-muted {
 }
 body.dark-mode .pagination .page-item.disabled .page-link {
     background-color: #3a3a3c;
+}
+body.dark-mode .text-muted {
+    color: #98989d !important;
 }
 
 /* Estilos de Botão de Deletar (genérico para histórico e favoritos) */
