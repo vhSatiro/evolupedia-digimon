@@ -1,3 +1,38 @@
+// --- LÓGICA DO TEMA (MODO NOTURNO) ---
+const themeSwitcher = document.getElementById('theme-switcher');
+const themeSwitcherLabel = document.getElementById('theme-switcher-label');
+const body = document.body;
+
+const applyTheme = (theme) => {
+    if (theme === 'dark') {
+        body.classList.add('dark-mode');
+        themeSwitcher.checked = true;
+        themeSwitcherLabel.textContent = 'Modo Claro';
+    } else {
+        body.classList.remove('dark-mode');
+        themeSwitcher.checked = false;
+        themeSwitcherLabel.textContent = 'Modo Noturno';
+    }
+    // Salva a preferência no localStorage
+    localStorage.setItem('theme', theme);
+};
+
+const toggleTheme = () => {
+    const currentTheme = localStorage.getItem('theme') || 'light';
+    const newTheme = currentTheme === 'light' ? 'dark' : 'light';
+    applyTheme(newTheme);
+};
+
+// Aplica o tema salvo imediatamente ao carregar o script
+const savedTheme = localStorage.getItem('theme') || 'light'; // 'light' é o padrão
+applyTheme(savedTheme);
+
+// Adiciona o listener para o interruptor
+themeSwitcher.addEventListener('change', toggleTheme);
+
+
+// --- O RESTANTE DO SEU CÓDIGO CONTINUA ABAIXO ---
+
 let ALL_DIGIMON_DATA = [];
 let digimonNames = [];
 let navigationHistory = [];
@@ -22,7 +57,6 @@ const itemsPerPage = 18;
 let currentFilters = { attribute: 'All', stage: 'All' };
 
 // --- FUNÇÃO GLOBAL PARA MUDANÇA DE PÁGINA ---
-// Precisa ser global para ser chamada pelo onclick="" no HTML da paginação
 function changePage(page) {
     const totalPages = Math.ceil(getFilteredDigimon().length / itemsPerPage);
     if (page < 1 || page > totalPages) return;
