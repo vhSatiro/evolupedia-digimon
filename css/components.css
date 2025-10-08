@@ -1,0 +1,74 @@
+.theme-switcher-container {
+    position: absolute;
+    top: 1rem;
+    right: 1.5rem;
+    z-index: 100;
+}
+.theme-switcher-container .form-check-label {
+    color: var(--digi-text-dark);
+}
+body:not(.dark-mode) .theme-switcher-container .form-check-label {
+    color: #212529;
+}
+
+.logo-image {
+    max-width: 240px;
+    height: auto;
+    display: block;
+    margin: 0 auto 20px auto;
+    border-radius: 50% / 40%;
+    object-fit: cover;
+    aspect-ratio: 16 / 9;
+    border: 3px solid var(--digi-blue);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+}
+body.dark-mode .logo-image {
+    border-color: var(--digi-cyan);
+}
+.logo-image:hover {
+    transform: scale(1.03);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.form-control, .form-select {
+    background-color: var(--digi-card-bg);
+    border: 1px solid var(--digi-border-light);
+    color: var(--digi-text-dark);
+}
+.form-control:focus, .form-select:focus {
+    background-color: var(--digi-card-bg);
+    color: var(--digi-text-dark);
+    border-color: var(--digi-blue);
+    box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+body.dark-mode .form-control, body.dark-mode .form-select {
+    background-color: #3a3a3c;
+}
+body.dark-mode .form-control::placeholder {
+    color: #98989d;
+}
+
+.btn-outline-secondary {
+    color: #6c757d;
+    border-color: #6c757d;
+}
+.btn-outline-secondary:hover {
+    color: #fff;
+    background-color: #6c757d;
+    border-color: #6c757d;
+}
+body.dark-mode .btn-outline-secondary {
+    color: #b0b0b0;
+    border-color: #888;
+}
+
+div.awesomplete > ul {
+    background: var(--digi-card-bg);
+    border: 1px solid var(--digi-border-light);
+    color: var(--digi-text-dark);
+}
+div.awesomplete > ul > li[aria-selected="true"] {
+    background: var(--digi-blue);
+    color: white;
+}

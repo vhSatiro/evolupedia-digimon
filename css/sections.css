@@ -1,0 +1,127 @@
+.pre-evolutions-title {
+    margin-top: 1.5rem;
+}
+
+.evolutions-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(110px, 1fr));
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.evolution-attribute {
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-top: 4px;
+    margin-bottom: 0;
+    text-align: center;
+}
+.attr-virus { color: var(--attr-virus) !important; }
+.attr-vaccine { color: var(--attr-vaccine) !important; }
+.attr-data { color: var(--attr-data) !important; }
+.attr-free { color: var(--attr-free) !important; }
+.attr-none { color: var(--attr-none) !important; }
+.attr-unknown { color: var(--attr-unknown) !important; }
+
+.history-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    min-height: 60px;
+}
+
+.favorites-wrapper {
+    position: relative;
+    padding: 0 25px;
+}
+.favorites-grid {
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+    overflow-x: auto;
+    padding: 5px 0 15px 0;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+.favorites-grid::-webkit-scrollbar { display: none; }
+.scroll-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 10;
+    background-color: var(--digi-card-bg);
+    border: 1px solid var(--digi-border-light);
+    color: var(--digi-text-dark);
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    display: none;
+    font-weight: bold;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+.scroll-btn.left { left: 0; }
+.scroll-btn.right { right: 0; }
+.scroll-btn:hover { background-color: #f1f1f1; }
+body.dark-mode .scroll-btn:hover { background-color: #4a4a4c; }
+.scroll-btn:disabled { opacity: 0.4; cursor: not-allowed; }
+
+.digimon-list-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+    gap: 20px;
+}
+
+.pagination .page-link {
+    cursor: pointer;
+    background-color: var(--digi-card-bg);
+    border-color: var(--digi-border-light);
+    color: var(--digi-blue);
+}
+.pagination .page-item.active .page-link {
+    background-color: var(--digi-blue);
+    border-color: var(--digi-blue);
+    color: #fff;
+}
+.pagination .page-item.disabled .page-link {
+    color: #6c757d;
+    background-color: transparent;
+}
+body.dark-mode .pagination .page-item.disabled .page-link {
+    background-color: #3a3a3c;
+}
+body.dark-mode .text-muted {
+    color: #98989d !important;
+}
+
+.history-delete-btn, .favorite-delete-btn {
+    position: absolute;
+    top: -8px;
+    right: -8px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 1px solid var(--digi-border-light);
+    background-color: var(--digi-card-bg);
+    color: #6c757d;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 18px;
+    text-align: center;
+    cursor: pointer;
+    opacity: 0;
+    transition: all 0.2s ease;
+    z-index: 5;
+}
+.history-card:hover .history-delete-btn,
+.favorite-card:hover .favorite-delete-btn {
+    opacity: 1;
+}
+.history-delete-btn:hover,
+.favorite-delete-btn:hover {
+    background-color: #dc3545;
+    color: white;
+    border-color: #dc3545;
+}

@@ -1,0 +1,137 @@
+.digimon-frame {
+    object-fit: contain;
+    border-radius: 50%;
+    padding: 1px;
+    background-color: #343a40; /* Fundo escuro (tema claro) */
+    border: 2px solid #212529; /* Borda escura (tema claro) */
+    transition: all 0.2s ease-in-out;
+}
+body.dark-mode .digimon-frame {
+    background-color: #f0f0f0; /* Fundo claro (tema escuro) */
+    border-color: #dee2e6; /* Borda clara (tema escuro) */
+}
+.evolution-card:hover .digimon-frame,
+.history-card:hover .digimon-frame,
+.favorite-card:hover .digimon-frame,
+.digimon-list-card:hover .digimon-frame {
+    border-color: var(--digi-cyan);
+    box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+}
+
+#resultado .card {
+    background-color: var(--digi-card-bg);
+    border: 1px solid var(--digi-blue);
+}
+#resultado .card-header {
+    background: linear-gradient(45deg, var(--digi-blue), var(--digi-cyan));
+    border-bottom: 2px solid var(--digi-yellow);
+    color: white;
+}
+#resultado .card-header .btn-light {
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    color: #212529;
+}
+body.dark-mode #resultado .card-header .btn-light {
+    background-color: #48484a;
+    border-color: #545456;
+    color: var(--digi-text-dark);
+}
+body.dark-mode #resultado .card-header .btn-light:hover {
+    background-color: #58585a;
+}
+#resultado strong { 
+    color: var(--digi-blue); 
+    font-weight: 600; 
+}
+
+/* ===== CORREÇÃO ADICIONADA AQUI ===== */
+#resultado .card-body p {
+    color: var(--digi-text-dark);
+}
+/* ===================================== */
+
+.favorite-star {
+    font-size: 2rem;
+    color: #ffffff;
+    cursor: pointer;
+    transition: color 0.2s, transform 0.2s;
+    -webkit-text-stroke: 1px #343a40;
+    text-stroke: 1px #343a40;
+    vertical-align: middle;
+}
+.favorite-star:hover { transform: scale(1.15); display: inline-block; }
+.favorite-star.favorited { color: var(--digi-yellow); -webkit-text-stroke: 1px #a67c00; text-stroke: 1px #a67c00; }
+
+.digimon-image.digimon-frame {
+    width: 90px;
+    height: 90px;
+    float: right;
+    margin-left: 15px;
+    margin-bottom: 10px;
+}
+
+.evolution-card {
+    border: 1px solid var(--digi-border-light);
+    background-color: var(--digi-card-bg);
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    padding: 8px; /* Adiciona um padding para espaçamento interno */
+    display: flex; /* Transforma em flex container */
+    flex-direction: column; /* Organiza os itens verticalmente */
+    align-items: center; /* Centraliza horizontalmente */
+    justify-content: center; /* Centraliza verticalmente */
+}
+.evolution-card:hover { transform: translateY(-5px); border-color: var(--digi-blue); box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); }
+.evolution-card .digimon-frame { width: 70px; height: 70px; margin: 0 auto 8px auto; }
+.evolution-card .card-title { color: var(--digi-text-dark); font-weight: 600; font-size: 0.85rem; text-align: center; }
+
+.history-card {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px;
+    background-color: var(--digi-card-bg);
+    border: 1px solid var(--digi-border-light);
+    border-radius: 0.375rem;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+.history-card:hover { border-color: var(--digi-blue); transform: translateY(-2px); box-shadow: 0 4px 8px rgba(0,0,0,0.05); }
+.history-card .digimon-frame { width: 40px; height: 40px; flex-shrink: 0; }
+.history-card span { font-weight: 600; font-size: 0.9rem; color: var(--digi-text-dark); }
+
+.favorite-card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 95px;
+    flex-shrink: 0;
+    padding: 10px;
+    background-color: var(--digi-card-bg);
+    border: 1px solid var(--digi-border-light);
+    border-radius: 0.375rem;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+.favorite-card:hover { border-color: var(--digi-blue); transform: translateY(-3px); box-shadow: 0 4px 8px rgba(0,0,0,0.07); }
+.favorite-card .digimon-frame { width: 55px; height: 55px; }
+.favorite-card span { font-weight: 600; font-size: 0.8rem; margin-top: 5px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; width: 100%; color: var(--digi-text-dark); }
+
+.digimon-list-card {
+    border: 1px solid var(--digi-border-light);
+    border-radius: 0.375rem;
+    padding: 10px;
+    text-align: center;
+    background-color: var(--digi-card-bg);
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+.digimon-list-card:hover { transform: translateY(-5px); border-color: var(--digi-blue); box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); }
+.digimon-list-card .digimon-frame { width: 80px; height: 80px; margin: 0 auto; }
+.digimon-list-card .digimon-name { font-weight: 600; font-size: 0.9rem; margin-top: 8px; margin-bottom: 4px; color: var(--digi-text-dark); }
+.digimon-list-card .digimon-stage { font-size: 0.75rem; font-weight: 500; color: #6c757d; }
+body.dark-mode .digimon-list-card .digimon-stage { color: #aaa; }

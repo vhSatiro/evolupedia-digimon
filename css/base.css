@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@400;600;700&display=swap');
+
+:root {
+    --digi-blue: #0d6efd;
+    --digi-cyan: #0dcaf0;
+    --digi-yellow: #ffc107;
+    --digi-light-bg: #f8f9fa;
+    --digi-card-bg: #ffffff;
+    --digi-border-light: #dee2e6;
+    --digi-text-dark: #212529;
+    --card-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.1);
+    
+    /* ===== CORES DE ATRIBUTO ATUALIZADAS ===== */
+    --attr-virus: #dc3545;   /* Vermelho */
+    --attr-vaccine: #0d6efd;  /* Azul */
+    --attr-data: #28a745;    /* Verde */
+    --attr-free: #6f42c1;    /* Roxo */
+    --attr-none: #fd7e14;    /* Laranja */
+    --attr-unknown: #0dcaf0; /* Ciano */
+}
+
+body.dark-mode {
+    --digi-light-bg: #1c1c1e;
+    --digi-card-bg: #2c2c2e;
+    --digi-border-light: #444446;
+    --digi-text-dark: #f2f2f7;
+    --card-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.4);
+    /* As novas cores não precisam de override, então a seção abaixo foi removida */
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+body {
+  font-family: 'Oxanium', sans-serif;
+  background-color: var(--digi-light-bg);
+  color: var(--digi-text-dark);
+  margin: 0;
+  padding: 0;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+h1, h2, h3, h4, h5, h6, .form-label {
+    color: var(--digi-text-dark);
+}
+hr {
+    color: var(--digi-border-light);
+}
+
+.card.shadow-lg {
+    background-color: var(--digi-card-bg);
+    border: 1px solid var(--digi-border-light);
+    box-shadow: var(--card-shadow) !important;
+}
