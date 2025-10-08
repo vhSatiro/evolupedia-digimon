@@ -13,31 +13,21 @@ const applyTheme = (theme) => {
         themeSwitcher.checked = false;
         themeSwitcherLabel.textContent = 'Modo Noturno';
     }
-    // Salva a preferência no localStorage
     localStorage.setItem('theme', theme);
 };
-
 const toggleTheme = () => {
-    const currentTheme = localStorage.getItem('theme') || 'light';
-    const newTheme = currentTheme === 'light' ? 'dark' : 'light';
+    const newTheme = body.classList.contains('dark-mode') ? 'light' : 'dark';
     applyTheme(newTheme);
 };
-
-// Aplica o tema salvo imediatamente ao carregar o script
-const savedTheme = localStorage.getItem('theme') || 'light'; // 'light' é o padrão
+const savedTheme = localStorage.getItem('theme') || 'light';
 applyTheme(savedTheme);
-
-// Adiciona o listener para o interruptor
 themeSwitcher.addEventListener('change', toggleTheme);
 
-
-// --- O RESTANTE DO SEU CÓDIGO CONTINUA ABAIXO ---
-
+// --- O RESTANTE DO CÓDIGO ---
 let ALL_DIGIMON_DATA = [];
 let digimonNames = [];
 let navigationHistory = [];
 
-// --- CONSTANTES DE ELEMENTOS DO DOM ---
 const searchInput = document.getElementById("search");
 const resultadoDiv = document.getElementById("resultado");
 const historyContainer = document.getElementById("history-container");
@@ -51,12 +41,10 @@ const stageFilter = document.getElementById("stage-filter");
 const filterResultsCount = document.getElementById("filter-results-count");
 let awesomplete;
 
-// --- ESTADO DA APLICAÇÃO ---
 let currentPage = 1;
 const itemsPerPage = 18;
 let currentFilters = { attribute: 'All', stage: 'All' };
 
-// --- FUNÇÃO GLOBAL PARA MUDANÇA DE PÁGINA ---
 function changePage(page) {
     const totalPages = Math.ceil(getFilteredDigimon().length / itemsPerPage);
     if (page < 1 || page > totalPages) return;
@@ -64,12 +52,27 @@ function changePage(page) {
     renderDigimonList();
 }
 
+// --- FUNÇÕES DE LÓGICA E UTILITÁRIOS ---
+const getDisplayStage = (stage) => {
+    const stageMap = {
+        'I': 'Baby 1',
+        'II': 'Baby 2',
+        'III': 'Rookie',
+        'IV': 'Champion',
+        'V': 'Ultimate',
+        'VI': 'Mega',
+        'VI+': 'Mega+'
+    };
+    return stageMap[stage] || stage;
+};
 
-// --- FUNÇÕES DE LÓGICA ---
 function handleImageError(element, digimonName) {
-    element.style.display = 'none';
-    console.warn(`A imagem para o Digimon "${digimonName}" não foi encontrada.`);
+    const transparentPixel = 'data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7';
+    element.onerror = null; 
+    element.src = transparentPixel;
+    console.warn(`A imagem para o Digimon "${digimonName}" não foi encontrada. Exibindo moldura vazia.`);
 }
+
 
 // --- LÓGICA DO HISTÓRICO ---
 const getHistory = () => JSON.parse(localStorage.getItem('digimonHistory')) || [];
@@ -100,7 +103,7 @@ const renderHistory = () => {
         card.className = 'history-card';
         card.onclick = () => performSearch(name);
         card.innerHTML = `
-            <img src="${imageUrl}" alt="${name}" onerror="handleImageError(this, '${name.replace(/'/g, "\\'")}')">
+            <img class="digimon-frame" src="${imageUrl}" alt="${name}" onerror="handleImageError(this, '${name.replace(/'/g, "\\'")}')">
             <span>${name}</span>
             <button class="history-delete-btn" onclick="removeFromHistory('${name.replace(/'/g, "\\'")}')" title="Remover do histórico">×</button>
         `;
@@ -158,7 +161,7 @@ const renderFavorites = () => {
             card.onclick = () => performSearch(name);
             card.innerHTML = `
                 <button class="favorite-delete-btn" onclick="removeFromFavorites('${name.replace(/'/g, "\\'")}')" title="Remover dos Favoritos">×</button>
-                <img src="${imageUrl}" alt="${name}" onerror="handleImageError(this, '${name.replace(/'/g, "\\'")}')">
+                <img class="digimon-frame" src="${imageUrl}" alt="${name}" onerror="handleImageError(this, '${name.replace(/'/g, "\\'")}')">
                 <span>${name}</span>
             `;
             favoritesContainer.appendChild(card);
@@ -185,7 +188,7 @@ function populateFilters() {
         if (indexB === -1) return -1;
         return indexA - indexB;
     }).forEach(stage => {
-        stageFilter.innerHTML += `<option value="${stage}">${stage}</option>`;
+        stageFilter.innerHTML += `<option value="${stage}">${getDisplayStage(stage)}</option>`;
     });
 }
 const getFilteredDigimon = () => {
@@ -215,9 +218,9 @@ function renderDigimonList() {
                 window.scrollTo({ top: 0, behavior: 'smooth' });
             };
             card.innerHTML = `
-                <img src="${imageUrl}" alt="${digimon.Name}" onerror="handleImageError(this, '${digimon.Name.replace(/'/g, "\\'")}')">
+                <img class="digimon-frame" src="${imageUrl}" alt="${digimon.Name}" onerror="handleImageError(this, '${digimon.Name.replace(/'/g, "\\'")}')">
                 <p class="digimon-name">${digimon.Name}</p>
-                <p class="digimon-stage">Estágio: ${digimon.Stage || 'N/A'}</p>
+                <p class="digimon-stage">Estágio: ${getDisplayStage(digimon.Stage) || 'N/A'}</p> 
             `;
             digimonListContainer.appendChild(card);
         });
@@ -318,7 +321,7 @@ function buscarDigimon(name) {
                 const evoAttribute = evoDigimon ? (evoDigimon.Attribute || 'None') : 'None';
                 return `
                     <div class="evolution-card" onclick="navigateTo('${evoName.replace(/'/g, "\\'")}')">
-                        <img src="${evoImageUrl}" alt="${evoName}" onerror="handleImageError(this, '${evoName.replace(/'/g, "\\'")}')">
+                        <img class="digimon-frame" src="${evoImageUrl}" alt="${evoName}" onerror="handleImageError(this, '${evoName.replace(/'/g, "\\'")}')">
                         <p class="card-title">${evoName}</p>
                         <p class="evolution-attribute attr-${evoAttribute.toLowerCase()}">${evoAttribute}</p>
                     </div>
@@ -333,7 +336,7 @@ function buscarDigimon(name) {
                 const preEvoImageUrl = `https://digimon-api.com/images/digimon/w/${preEvo.Name.replace(/\s/g, '_')}.png`;
                 return `
                     <div class="evolution-card" onclick="navigateTo('${preEvo.Name.replace(/'/g, "\\'")}')">
-                        <img src="${preEvoImageUrl}" alt="${preEvo.Name}" onerror="handleImageError(this, '${preEvo.Name.replace(/'/g, "\\'")}')">
+                        <img class="digimon-frame" src="${preEvoImageUrl}" alt="${preEvo.Name}" onerror="handleImageError(this, '${preEvo.Name.replace(/'/g, "\\'")}')">
                         <p class="card-title">${preEvo.Name}</p>
                         <p class="evolution-attribute attr-${(preEvo.Attribute || 'None').toLowerCase()}">${preEvo.Attribute || 'None'}</p>
                     </div>
@@ -350,9 +353,9 @@ function buscarDigimon(name) {
                 </div>
             </div>
             <div class="card-body">
-                <img src="${imageUrl}" alt="${encontrado.Name}" class="digimon-image" onerror="handleImageError(this, '${encontrado.Name.replace(/'/g, "\\'")}')">
+                <img src="${imageUrl}" alt="${encontrado.Name}" class="digimon-image digimon-frame" onerror="handleImageError(this, '${encontrado.Name.replace(/'/g, "\\'")}')">
                 <p><strong>Número:</strong> ${encontrado.Number || "Desconhecido"}</p>
-                <p><strong>Estágio:</strong> ${encontrado.Stage || "Desconhecido"}</p>
+                <p><strong>Estágio:</strong> ${getDisplayStage(encontrado.Stage) || "Desconhecido"}</p>
                 <p class="mb-2"><strong>Atributo:</strong> ${encontrado.Attribute || "Desconhecido"}</p>
                 <div style="clear: both;"></div>
                 <h5 class="mt-4">Evoluções</h5>

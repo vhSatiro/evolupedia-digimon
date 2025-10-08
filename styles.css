@@ -61,6 +61,28 @@ body:not(.dark-mode) .theme-switcher-container .form-check-label {
     color: #212529;
 }
 
+/* --- NOVA CLASSE REUTILIZÁVEL PARA MOLDURA --- */
+.digimon-frame {
+    object-fit: contain;
+    border-radius: 50%;
+    padding: 1px;
+    background-color: #343a40; /* Fundo escuro (tema claro) */
+    border: 2px solid #212529; /* Borda escura (tema claro) */
+    transition: all 0.2s ease-in-out;
+}
+body.dark-mode .digimon-frame {
+    background-color: #f0f0f0; /* Fundo claro (tema escuro) */
+    border-color: #dee2e6; /* Borda clara (tema escuro) */
+}
+.evolution-card:hover .digimon-frame,
+.history-card:hover .digimon-frame,
+.favorite-card:hover .digimon-frame,
+.digimon-list-card:hover .digimon-frame {
+    border-color: var(--digi-cyan);
+    box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+}
+/* =============================================== */
+
 /* --- Card Principal e Componentes --- */
 .card.shadow-lg {
     background-color: var(--digi-card-bg);
@@ -165,17 +187,13 @@ body.dark-mode #resultado .card-header .btn-light:hover {
     -webkit-text-stroke: 1px #a67c00;
     text-stroke: 1px #a67c00;
 }
-.digimon-image {
-    max-width: 90px;
+/* Imagem Principal do Card de Resultado */
+.digimon-image.digimon-frame {
+    width: 90px;
     height: 90px;
-    object-fit: contain;
     float: right;
     margin-left: 15px;
     margin-bottom: 10px;
-    background-color: transparent;
-    border-radius: 10px;
-    border: 1px solid var(--digi-border-light);
-    padding: 2px;
 }
 
 /* --- Cards de Evolução --- */
@@ -196,20 +214,16 @@ body.dark-mode #resultado .card-header .btn-light:hover {
     border-color: var(--digi-blue);
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
-.evolution-card img {
+.evolution-card .digimon-frame {
     width: 70px;
     height: 70px;
-    object-fit: contain;
-    margin-bottom: 8px;
-    background-color: transparent;
-    border-radius: 5px;
-    border: none;
-    padding: 0;
+    margin: 0 auto 8px auto;
 }
 .evolution-card .card-title {
     color: var(--digi-text-dark);
     font-weight: 600;
     font-size: 0.85rem;
+    text-align: center;
 }
 .evolution-attribute {
     font-size: 0.75rem;
@@ -217,6 +231,7 @@ body.dark-mode #resultado .card-header .btn-light:hover {
     text-transform: uppercase;
     margin-top: 4px;
     margin-bottom: 0;
+    text-align: center;
 }
 .attr-virus { color: var(--attr-virus); }
 .attr-vaccine { color: var(--attr-vaccine); }
@@ -260,12 +275,10 @@ div.awesomplete > ul > li[aria-selected="true"] {
     transform: translateY(-2px);
     box-shadow: 0 4px 8px rgba(0,0,0,0.05);
 }
-.history-card img {
+.history-card .digimon-frame {
     width: 40px;
     height: 40px;
-    object-fit: contain;
-    border-radius: 5px;
-    background-color: #f8f9fa;
+    flex-shrink: 0;
 }
 .history-card span {
     font-weight: 600;
@@ -311,11 +324,9 @@ div.awesomplete > ul > li[aria-selected="true"] {
     transform: translateY(-3px);
     box-shadow: 0 4px 8px rgba(0,0,0,0.07);
 }
-.favorite-card img {
+.favorite-card .digimon-frame {
     width: 55px;
     height: 55px;
-    object-fit: contain;
-    border-radius: 5px;
 }
 .favorite-card span {
     font-weight: 600;
@@ -354,11 +365,13 @@ body.dark-mode .scroll-btn:hover { background-color: #4a4a4c; }
 
 /* --- ESTILOS PARA LISTAGEM GERAL E PAGINAÇÃO --- */
 .digimon-list-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     gap: 20px;
 }
 .digimon-list-card {
+    width: 130px;
     border: 1px solid var(--digi-border-light);
     border-radius: 0.375rem;
     padding: 10px;
@@ -372,10 +385,10 @@ body.dark-mode .scroll-btn:hover { background-color: #4a4a4c; }
     border-color: var(--digi-blue);
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
-.digimon-list-card img {
+.digimon-list-card .digimon-frame {
     width: 80px;
     height: 80px;
-    object-fit: contain;
+    margin: 0 auto; /* Centraliza a imagem no card */
 }
 .digimon-list-card .digimon-name {
     font-weight: 600;
@@ -414,7 +427,7 @@ body.dark-mode .text-muted {
     color: #98989d !important;
 }
 
-/* Estilos de Botão de Deletar (genérico para histórico e favoritos) */
+/* --- Estilos de Botão de Deletar --- */
 .history-delete-btn, .favorite-delete-btn {
     position: absolute;
     top: -8px;
